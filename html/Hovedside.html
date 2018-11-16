@@ -14,47 +14,174 @@
     </header>
 
       <div id="meny">
-        <div>
-          <h1>Option 1</h1>
+        <div class="options">
+          <h1>General</h1>
         </div>
-        <div>
-          <h1>Option 2</h1>
+        <div class="options">
+          <h1>Sport</h1>
         </div>
-        <div>
-          <h1>Option 3</h1>
+        <div class="options">
+          <h1>Economy</h1>
+        </div>
+        <div class="options">
+          <h1>Choose papers</h1>
         </div>
       </div>
 
 
-      <div class="rad1">
+      <div class="rad1" id="artikkel1">
         <img src="../bilder/doge.jpg" class="bilde">
         <h1>Overskrift</h1>
       </div>
 
-      <div class="rad1">
-        <img src="../bilder/doge.jpg" class="bilde">
+      <div class="rad1" id="artikkel2">
+        <img src="../bilder/doge.jpg" class="bilde" >
         <h1>Overskrift</h1>
       </div>
 
-      <div class="rad1">
-        <img src="../bilder/doge.jpg" class="bilde">
+      <div class="rad1" id="artikkel3">
+        <img src="../bilder/doge.jpg" class="bilde" >
         <h1>Overskrift</h1>
       </div>
 
-      <div class="rad2">
-        <img src="../bilder/doge.jpg" class="bilde">
+      <div class="rad2" id="artikkel4">
+        <img src="../bilder/doge.jpg" class="bilde" >
         <h1>Overskrift</h1>
       </div>
 
-      <div class="rad2">
-        <img src="../bilder/doge.jpg" class="bilde">
+      <div class="rad2" id="artikkel5">
+        <img src="../bilder/doge.jpg" class="bilde" >
         <h1>Overskrift</h1>
       </div>
 
-      <div class="rad2">
-        <img src="../bilder/doge.jpg" class="bilde">
+      <div class="rad2" id="artikkel6">
+        <img src="../bilder/doge.jpg" class="bilde" >
         <h1>Overskrift</h1>
       </div>
+
+
+      <div class="overlayInner" id="overlay1">
+
+            <div>
+              <p id="lukkVindu1">Close</p>
+            </div>
+            <div>
+                <img src="../bilder/doge.jpg" class="bilde">
+            </div>
+          </div>
+
+
+      <div class="overlayInner" id="overlay2">
+
+            <div>
+              <p id="lukkVindu2">Close</p>
+            </div>
+            <div>
+                <img src="../bilder/doge.jpg" class="bilde">
+            </div>
+          </div>
+
+
+      <div class="overlayInner" id="overlay3">
+
+            <div>
+              <p id="lukkVindu3">Close</p>
+            </div>
+            <div>
+                <img src="../bilder/doge.jpg" class="bilde">
+            </div>
+          </div>
+
+
+          <div class="overlayInner" id="overlay4">
+
+                <div>
+                  <p id="lukkVindu4">Close</p>
+                </div>
+                <div>
+                    <img src="../bilder/doge.jpg" class="bilde">
+                </div>
+              </div>
+
+
+          <div class="overlayInner" id="overlay5">
+
+                <div>
+                  <p id="lukkVindu5">Close</p>
+                </div>
+                <div>
+                    <img src="../bilder/doge.jpg" class="bilde">
+                </div>
+              </div>
+
+
+          <div class="overlayInner" id="overlay6">
+
+                <div>
+                  <p id="lukkVindu6">Close</p>
+                </div>
+                <div>
+                    <img src="../bilder/doge.jpg" class="bilde">
+                </div>
+              </div>
 
     </body>
+    <script type="text/javascript">
+
+      var artikkel1El = document.getElementById("artikkel1");
+      var artikkel2El = document.getElementById("artikkel2");
+      var artikkel3El = document.getElementById("artikkel3");
+      var artikkel4El = document.getElementById("artikkel4");
+      var artikkel5El = document.getElementById("artikkel5");
+      var artikkel6El = document.getElementById("artikkel6");
+
+      var lukkVindu1El=document.getElementById("lukkVindu1");
+      var lukkVindu2El=document.getElementById("lukkVindu2");
+      var lukkVindu3El=document.getElementById("lukkVindu3");
+      var lukkVindu4El=document.getElementById("lukkVindu4");
+      var lukkVindu5El=document.getElementById("lukkVindu5");
+      var lukkVindu6El=document.getElementById("lukkVindu6");
+
+      artikkel1El.addEventListener("click", artikkel1);
+      artikkel2El.addEventListener("click", artikkel2);
+      artikkel3El.addEventListener("click", artikkel3);
+      artikkel4El.addEventListener("click", artikkel4);
+      artikkel5El.addEventListener("click", artikkel5);
+      artikkel6El.addEventListener("click", artikkel6);
+
+      lukkVindu1El.addEventListener("click", lukk);
+      lukkVindu2El.addEventListener("click", lukk);
+      lukkVindu3El.addEventListener("click", lukk);
+      lukkVindu4El.addEventListener("click", lukk);
+      lukkVindu5El.addEventListener("click", lukk);
+      lukkVindu6El.addEventListener("click", lukk);
+
+    function artikkel1() {
+    document.getElementById("overlay1").style.display = "block";
+    }
+    function artikkel2() {
+    document.getElementById("overlay2").style.display = "block";
+    }
+    function artikkel3() {
+    document.getElementById("overlay3").style.display = "block";
+    }
+    function artikkel4() {
+    document.getElementById("overlay4").style.display = "block";
+    }
+    function artikkel5() {
+    document.getElementById("overlay5").style.display = "block";
+    }
+    function artikkel6() {
+    document.getElementById("overlay6").style.display = "block";
+    }
+    function lukk() {
+    document.getElementById("overlay1").style.display = "none";
+    document.getElementById("overlay2").style.display = "none";
+    document.getElementById("overlay3").style.display = "none";
+    document.getElementById("overlay4").style.display = "none";
+    document.getElementById("overlay5").style.display = "none";
+    document.getElementById("overlay6").style.display = "none";
+    }
+
+    </script>
   </html>

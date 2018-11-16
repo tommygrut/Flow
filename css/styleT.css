@@ -66,7 +66,7 @@ header{
   background-color: grey;
   left: 20%;
   float: right;
-  margin: 1%;
+  margin: 1.5%;
 }
 .rad2 {
   top: 70%;
@@ -79,4 +79,60 @@ header{
 
 h1 {
   text-align: center;
+}
+
+.options {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 0;
+}
+.options:hover {
+  background-color: gray;
+}
+
+
+#overlay1 {
+  display: none;
+}
+#overlay2 {
+  display: none;
+}
+#overlay3 {
+  display: none;
+}
+#overlay4 {
+  display: none;
+}
+#overlay5 {
+  display: none;
+}
+#overlay6 {
+  display: none;
+}
+
+.overlayInner {
+    position: fixed;
+    width: 60%;
+    height: 70%;
+    top: 25%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+#lukkVindu1, #lukkVindu2, #lukkVindu3, #lukkVindu4, #lukkVindu5, #lukkVindu6{
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  width: 10%;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+  color: initial;
+  margin-right: 10px;
 }
