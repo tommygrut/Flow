@@ -1,49 +1,106 @@
-body{
-  width: 100%;
-  background-size: cover;
-  padding: 0;
-  margin:0;
-  background-image: url("../bilder/newspaper.png");
-  background-size: 30%;
-  background-color: #836953;
-}
-header{
-  color: white;
-  font-family: 'Lobster', cursive;
-  font-size: 42px;
-  text-align: center;
-  background-image: url("../bilder/bakgrunn.jpg");
-  padding-top: 1px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid white;
-}
-.logginnknapp{
-  height: 30px;
-  background:#f96f2f;
-  border:0;
-  padding:7px 20px 0px 20px;
-  color:#ffffff;
-  -webkit-appearance: button;
-   -moz-appearance: button;
-   appearance: button;
-   text-decoration: none;
-   color: initial;
-   border-radius: 5px;
-   border: 1px solid brown;
-}
-.logginnknapp:hover{
-  color: white;
-  background: black;
-}
+  body{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background-size: 30%;
+    background-color: #CDD6D5;
+    font-family: sans-serif;
+     {margin:0;}
+  }
+  header{
+    color: white;
+    padding-top: 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../bilder/newspaper.png");
+    background-color: #233656;
+  }
+  .leftcenter{
+    text-align: justify;
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    margin-bottom: 60px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+  .logginnknapp{
+    display: inline-block;
+    height: 55px;
+    padding: 0 57px;
+    border-radius: 26px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 55px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    align-self: left;
+    background-color:#233656 ;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  .logginnknapp:hover{
+    background-color: #7B9BA6;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  input{
+    width: 55%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #233656;
+  }
+  .container{
+    text-align: center;
+    background-color: #415B76;
+    width: 35%;
+    margin: 0 auto;
+    padding: 25px 20px 10px 20px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+  }
+  .register{
+    text-align: left;
+    font-size: 1vw;
+    margin: 5px 0 5px 20px;
+  }
+  .glemtpassord{
+    text-align: right;
+    font-size: 1vw;
 
-.container{
-  text-align: center;
-  background-color: black;
-  width: 25%;
-  margin: 0 auto;
-  padding: 25px 20px 100px 20px;
-  height: 100%;
-  margin-top: 30px;
-  color: white;
-  border-radius: 10px;
-}
+  }
+  .signupbutton{
+  text-decoration: none;
+  }
+  .signupbutton:hover{
+    text-decoration: underline white;
+  }
+
+/* NAVBAR */
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: #7B9BA6;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+    text-decoration: underline 5px black;
+  }
