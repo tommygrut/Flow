@@ -1,0 +1,104 @@
+body{
+  width: 100%;
+  padding: 0;
+  margin:0;
+  background-size: 30%;
+  background-color: #CDD6D5;
+  font-family: sans-serif;
+   {margin:0;}
+}
+header{
+  color: white;
+  padding-top: 1px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../bilder/newspaper.png");
+  background-color: #233656;
+}
+.leftcenter{
+  text-align: justify;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  margin-bottom: 60px;
+  padding: 20px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+input{
+  width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #233656;
+}
+
+
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #7B9BA6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline 5px black;
+}
+
+
+/*About Page*/
+
+.about-div {
+  font-family: 'Playfair Display', serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about-header {
+  font-size: 2.5em;
+  margin-bottom: 5%;
+}
+
+.horizontal-line {
+  width: 85%;
+  height: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1.5px solid #233656;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+
+.about-container {
+  margin-bottom: 5%;
+  line-height: 1.4;
+  font-size: 1.3em;
+}
+
+.questions-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
