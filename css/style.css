@@ -1,29 +1,46 @@
   body{
     width: 100%;
+    background-size: cover;
     padding: 0;
     margin:0;
-    background-size: 30%;
     background-color: #CDD6D5;
     font-family: sans-serif;
-     {margin:0;}
   }
+
   header{
     color: white;
-    padding-top: 1vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../bilder/newspaper.png");
+    padding-top: 0px;
     background-color: #233656;
+    height: 10vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
   }
+
+  #hbilde {
+    height: 9vw;
+    display: inline-block;
+  }
+
   .leftcenter{
+    position: absolute;
+    top: 0.5vw;
     text-align: justify;
     font-family: 'Lobster', cursive;
-    font-size: 6vw;
-    margin-bottom: 5vw;
-    padding: 2vw;
-    margin-left: 15vw;
-    margin-top: .5vw;
+    font-size: 5vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    margin-left: 3vw;
+    margin-top: 0vw;
+    display: inline-block;
   }
+
+  #side {
+    text-align: center;
+    top: 100vw;
+
+  }
+
   .logginnknapp{
     display: inline-block;
     height: 4vw;
@@ -61,13 +78,13 @@
     width: 35vw;
     margin: 0 auto;
     padding: 2vw 2vw 3vw 2vw;
-    margin-top: 3vw;
     color: white;
     border-radius: 2vw;
+    top: 15vw;
+    position: absolute;
+    left: 32.5vw;
   }
-  input[type="checkbox"]{
-    margin-right: 20px;
-  }
+
   #register{
     float: left;
     font-size: 1vw;
