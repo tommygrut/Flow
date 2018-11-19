@@ -14,7 +14,7 @@
           <h1 class="leftcenter">Flow</h1>
     <ul>
 
-    <li><a href="main.html">Home</a></li>
+    <li><a href="Hovedside.html">Home</a></li>
     <li><a href="news.html">News</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="websiteplan.html"> Our websiteplan</a></li>
@@ -25,19 +25,19 @@
 
       <div id="meny">
         <div class="options">
-          <h1><a href="Hovedside.html">General</a></h1>
+          <h1 class="text"><a href="Hovedside.html">General</a></h1>
         </div>
         <div class="options">
-          <h1><a href="Hoved-Sport.html">Sport</a></h1>
+          <h1 class="text"><a href="Hoved-Sport.html">Sport</a></h1>
         </div>
         <div class="options">
-          <h1><a href="Hoved-Economy.html">Economy</a></h1>
+          <h1 class="text"><a href="Hoved-Economy.html">Economy</a></h1>
         </div>
         <div class="options">
-          <h1><a href="Hoved-Politic.html">Politic</a></h1>
+          <h1 class="text"><a href="Hoved-Politic.html">Politic</a></h1>
         </div>
         <div class="options">
-          <h1><a href="">Choose papers</a></h1>
+          <h1 class="text"><a href="Velg.html">Choose papers</a></h1>
         </div>
       </div>
 
@@ -51,7 +51,7 @@
         <h3>Norwegian | Aftenposten</h3>
         <h1>Den kontroversielle dommeren...</h1>
       </div>
-      <div class="rad1" id="artikkel3" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" style="margin-left:19vw;">
+      <div class="rad1" id="artikkel3" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" style="margin-left:14vw;">
         <img src="../bilder/H-hillary.png" class="bilde" alt="Picture of Fox News station with a picture of Hillary Clinton on the TV" >
         <h3>English | Fox News</h3>
         <h1>Hillary Clinton remains inauthentic...</h1>
@@ -97,15 +97,15 @@
 
       var artikkel1El = document.getElementById("artikkel1");
       var artikkel2El = document.getElementById("artikkel2");
-      var artikkel6El = document.getElementById("artikkel3");
+      var artikkel3El = document.getElementById("artikkel3");
 
       var lukkVindu1El=document.getElementById("lukkVindu1");
       var lukkVindu2El=document.getElementById("lukkVindu2");
-      var lukkVindu6El=document.getElementById("lukkVindu3");
+      var lukkVindu3El=document.getElementById("lukkVindu3");
 
       artikkel1El.addEventListener("click", artikkel1);
       artikkel2El.addEventListener("click", artikkel2);
-      artikkel6El.addEventListener("click", artikkel3);
+      artikkel3El.addEventListener("click", artikkel3);
 
       lukkVindu1El.addEventListener("click", lukk);
       lukkVindu2El.addEventListener("click", lukk);
