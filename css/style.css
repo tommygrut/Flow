@@ -9,7 +9,7 @@
   }
   header{
     color: white;
-    padding-top: 1px;
+    padding-top: 1vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../bilder/newspaper.png");
@@ -18,20 +18,20 @@
   .leftcenter{
     text-align: justify;
     font-family: 'Lobster', cursive;
-    font-size: 100px;
-    margin-bottom: 60px;
-    padding: 20px;
-    margin-left: 200px;
-    margin-top: 10px;
+    font-size: 6vw;
+    margin-bottom: 5vw;
+    padding: 2vw;
+    margin-left: 15vw;
+    margin-top: .5vw;
   }
   .logginnknapp{
     display: inline-block;
-    height: 55px;
-    padding: 0 57px;
-    border-radius: 26px;
+    height: 4vw;
+    padding: 0 4vw;
+    border-radius: 2vw;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 55px;
+    font-size: 1vw;
+    line-height: 4vw;
     box-sizing: border-box;
     text-transform: uppercase;
     align-self: left;
@@ -48,34 +48,37 @@
     text-decoration: none;
   }
   input{
-    width: 55%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 50%;
+    padding: 1vw 2.5vw;
+    margin: .5vw 0;
     box-sizing: border-box;
     border: none;
-    border-bottom: 2px solid #233656;
+    border-bottom: .15vw solid #233656;
   }
   .container{
     text-align: center;
     background-color: #415B76;
-    width: 35%;
+    width: 35vw;
     margin: 0 auto;
-    padding: 25px 20px 10px 20px;
-    margin-top: 30px;
+    padding: 2vw 2vw 3vw 2vw;
+    margin-top: 3vw;
     color: white;
-    border-radius: 10px;
+    border-radius: 2vw;
+  }
+  input[type="checkbox"]{
+    margin-right: 20px;
   }
   #register{
-    text-align: left;
+    float: left;
     font-size: 1vw;
     margin: 5px 0 5px 20px;
   }
   #glemtpassord{
-    text-align: right;
+    float: right;
     font-size: 1vw;
-}
-
-.signupbutton{
+    margin: 5px 0 5px 20px;
+  }
+  .signupbutton{
   text-decoration: none;
   }
   .signupbutton:hover{
