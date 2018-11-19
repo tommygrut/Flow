@@ -36,56 +36,30 @@ header{
   top: 10vw;
 }
 
-.logginnknapp{
-  height: 30px;
-  background:#f96f2f;
-  border:0;
-  padding:7px 20px 0px 20px;
-  color:#ffffff;
-  -webkit-appearance: button;
-   -moz-appearance: button;
-   appearance: button;
-   text-decoration: none;
-   color: initial;
-   border-radius: 5px;
-   border: 1px solid brown;
-}
-.logginnknapp:hover{
-  color: white;
-  background: black;
-}
-
-.container{
-  text-align: center;
-  background-color: black;
-  width: 25%;
-  margin: 0 auto;
-  padding: 25px 20px 100px 20px;
-  height: 100%;
-  margin-top: 30px;
-  color: white;
-  border-radius: 10px;
-}
-
 #meny {
   z-index: 1;
-  width: 15vw;
+  width: 10vw;
   background-color: #233656;
   color: white;
   margin: 0;
   position: fixed;
   overflow: scroll;
   height: 40vw;
+
+}
+
+.text {
+  font-size: 2vw;
 }
 
 .rad1, .rad2{
   display: inline-block;
   border: 1px solid black;
   width: 23vw;
-  background-color: grey;
+  background-color: white;
   left: 15vw;
   float: right;
-  margin: 2vw;
+  margin: 3vw;
   overflow: hidden;
   max-height: 60vh;
 }
@@ -162,12 +136,14 @@ h3 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  width: 10%;
+  width: 5%;
   text-align: center;
   float: right;
   text-decoration: none;
   color: initial;
   margin-right: 10px;
+  position: fixed;
+  left: 78%;
 }
 
 ul {
@@ -201,4 +177,5 @@ li a:hover {
 a{
   color: inherit;
   text-decoration: none;
+  padding: 3vw 1vw;
 }
