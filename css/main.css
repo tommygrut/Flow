@@ -30,17 +30,6 @@ header{
   margin-top: 0vw;
   display: inline-block;
 }
-#england{
-width: 3vw;
-}
-#norway{
-width: 3vw;
-}
-.language{
-  position:absolute;
-  top: 0;
-  right: 0;
-}
 
 a{
   color: inherit;
