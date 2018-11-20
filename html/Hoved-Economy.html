@@ -14,73 +14,77 @@
         <h1 class="leftcenter">Flow</h1>
           <img src="../bilder/newspaper.png" id="hbilde" title="logo">
       </a>
+      <div class="language">
+        <img src="../bilder/england.png" id="england" alt="England">
+        <img src="../bilder/norway.png" id="norway" alt="Norway">
+      </div>
 
     <ul id="header_Ul">
     <li class="current"><a href="Hovedside.html">News</a></li>
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li><a href="websiteplan.html">About Flow</a></li>
+    <li><a href="about_questions.html">About Flow</a></li>
     <li style="float: right;"><a href="main.html">Sign out</a></li>
+
     </ul>
-    <div class="language">
-      <img src="../bilder/england.png" id="england" alt="England">
-      <img src="../bilder/norway.png" id="norway" alt="Norway">
+
+  </header>
+  <div id="side">
+
+    <div id="meny">
+      <div class="options">
+        <h1 class="text"><a href="Hovedside.html">General</a></h1>
+      </div>
+      <div class="options">
+        <h1 class="text"><a href="Hoved-Sport.html">Sport</a></h1>
+      </div>
+      <div class="options">
+        <h1 class="text"><a href="Hoved-Economy.html">Economy</a></h1>
+      </div>
+      <div class="options">
+        <h1 class="text"><a href="Hoved-Politic.html">Politic</a></h1>
+      </div>
+      <div class="options">
+        <h1 class="text"><a href="Velg.html">Choose papers</a></h1>
+      </div>
     </div>
 
-    </header>
-    <div id="side">
-
-      <div id="meny">
-        <div class="options">
-          <h1 class="text"><a href="Hovedside.html">General</a></h1>
-        </div>
-        <div class="options">
-          <h1 class="text"><a href="Hoved-Sport.html">Sport</a></h1>
-        </div>
-        <div class="options">
-          <h1 class="text"><a href="Hoved-Economy.html">Economy</a></h1>
-        </div>
-        <div class="options">
-          <h1 class="text"><a href="Hoved-Politic.html">Politic</a></h1>
-        </div>
-        <div class="options">
-          <h1 class="text"><a href="Velg.html">Choose papers</a></h1>
-        </div>
-      </div>
-
-      <div class="rad2" style="margin-left:19.2vw;" id="artikkel4" title="Stor sjanse for at du kjenner en svindler">
+      <div class="rad2" style="margin-left:19.6vw; padding-bottom:60%;" id="artikkel4" title="Stor sjanse for at du kjenner en svindler">
         <img src="../bilder/H-svindler.PNG" class="bilde" alt="Picture of money">
-        <h3>Norwegian | rb.no</h3>
-        <h1>Stor sjanse for at du kjenner en svindler</h1>
+        <button tabindex="1">
+          <h3>Norwegian | rb.no</h3>
+          <h1>Stor sjanse for at du kjenner en svindler</h1>
+      </button>
       </div>
 
       <div class="overlayInner" id="overlay4">
-        <div>
-          <p id="lukkVindu4">Close</p>
-        </div>
-        <div>
-          <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
-        </div>
-      </div>
 
-  </body>
-  <script type="text/javascript">
+            <div>
+              <button tabindex="1" id="lukkVindu4">Close</button>
+            </div>
+            <div>
+                <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
+            </div>
+          </div>
+
+    </body>
+    <script type="text/javascript">
 
 
-    var artikkel4El = document.getElementById("artikkel4");
+      var artikkel4El = document.getElementById("artikkel4");
 
-    var lukkVindu4El=document.getElementById("lukkVindu4");
+      var lukkVindu4El=document.getElementById("lukkVindu4");
 
-    artikkel4El.addEventListener("click", artikkel4);
+      artikkel4El.addEventListener("click", artikkel4);
 
-    lukkVindu4El.addEventListener("click", lukk);
+      lukkVindu4El.addEventListener("click", lukk);
 
     function artikkel4() {
-      document.getElementById("overlay4").style.display = "block";
+    document.getElementById("overlay4").style.display = "block";
     }
     function lukk() {
-      document.getElementById("overlay4").style.display = "none";
+    document.getElementById("overlay4").style.display = "none";
     }
 
-  </script>
+    </script>
   </html>
