@@ -21,12 +21,6 @@ header{
   padding-top: 0.5vw;
 }
 
-#header_Ul li.current a {
-  text-decoration: underline;
-  font-weight: ;
-  text-shadow: 0.1em 0.1em 0.4em black ;
-}
-
 #header_Ul li a {
   text-shadow: 0.1em 0.1em 0.4em black
 }
@@ -183,7 +177,7 @@ h3 {
   margin: 0;
 }
 .options:hover {
-  background-color: gray;
+  background-color: #415b76;
 }
 
 
