@@ -15,10 +15,22 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
+  top:0 ;
 }
 #hbilde {
   height: 9vw;
   display: inline-block;
+}
+#england{
+width: 3vw;
+}
+#norway{
+width: 3vw;
+}
+.language{
+  position:absolute;
+  top: 0;
+  right: 0;
 }
 .leftcenter{
   position: absolute;
