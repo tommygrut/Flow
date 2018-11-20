@@ -88,6 +88,7 @@ width: 3vw;
   margin: 3vw;
   overflow: hidden;
   max-height: 60vh;
+  cursor: pointer;
 }
 .rad2 {
   top: 70vw;
