@@ -1,0 +1,109 @@
+body{
+  width: 100vw;
+  padding: 0;
+  margin:0;
+  background-color: #CDD6D5;
+  font-family: sans-serif;
+
+}
+header{
+  color: white;
+  top: 0;
+  background-color: #233656;
+  height: 10vw;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+#hbilde {
+  height: 9vw;
+  display: inline-block;
+}
+.leftcenter{
+  position: absolute;
+  top: 0.5vw;
+  text-align: justify;
+  font-family: 'Lobster', cursive;
+  font-size: 5vw;
+  margin-bottom: 2vw;
+  padding: 1vw;
+  margin-left: 3vw;
+  margin-top: 0vw;
+  display: inline-block;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.beskrivelse{
+  position: absolute;
+  font-weight: bold;
+  line-height: 1.5;
+  top: 15vw;
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 2.6vw;
+  font-family: 'Playfair Display', serif;
+}
+#underBeskrivelse{
+  margin-top: 6%;
+  font-size: 0.6em;
+  font-family: 'Playfair Display', serif;
+}
+
+.hoveddel{
+  background-image: url("../bilder/Newspapers.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  height: 65vw;
+  opacity: 0.2;
+}
+
+#link{
+  color: blue;
+}
+#link:hover{
+  text-decoration: underline;
+}
+
+.logginnknapp{
+  float: right;
+  margin-top: 3vw;
+  margin-right: 3vw;
+  display: inline-block;
+  height: 4vw;
+  padding: 0 4vw;
+  border-radius: 0.3vw;
+  font-weight: 700;
+  font-size: 1.3vw;
+  line-height: 4vw;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  align-self: left;
+  background-color: #233656;
+  border: 2px solid white;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.logginnknapp:hover{
+  background-color: #415B76;
+}
+
+footer{
+  height: 5%;
+  color: white;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #233656;
+  width: 100%;
+
+}
+table{
+  width: 80%;
+  margin-left: 20%;
+  table-layout: fixed;
+}
