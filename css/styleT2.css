@@ -13,7 +13,6 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
-  top: 0;
 }
 #hbilde {
   height: 9vw;
@@ -21,17 +20,17 @@ header{
   padding-left: 11%;
   padding-top: 0.5vw;
 }
-#england{
-width: 3vw;
+
+#header_Ul li.current a {
+  text-decoration: underline;
+  font-weight: ;
+  text-shadow: 0.1em 0.1em 0.4em black ;
 }
-#norway{
-width: 3vw;
+
+#header_Ul li a {
+  text-shadow: 0.1em 0.1em 0.4em black
 }
-.language{
-  position:absolute;
-  top: 0;
-  right: 0;
-}
+
 .leftcenter{
   position: absolute;
   top: 0.5vw;
@@ -46,14 +45,16 @@ width: 3vw;
   text-shadow: 0.1em 0.1em 0.4em black
 }
 
-#header_Ul li.current a {
-  text-decoration: underline;
-  font-weight: ;
-  text-shadow: 0.1em 0.1em 0.4em black ;
+#england{
+width: 3vw;
 }
-
-#header_Ul li a {
-  text-shadow: 0.1em 0.1em 0.4em black
+#norway{
+width: 3vw;
+}
+.language{
+  position:absolute;
+  top: 0;
+  right: 0;
 }
 
 #side {
@@ -61,28 +62,77 @@ width: 3vw;
   top: 10vw;
 }
 
+.text {
+  font-size: 2vw;
+}
+
+.tekst{
+  padding-top: 2vw;
+  font-size: 2vw;
+}
+
+#hbilde {
+  height: 9vw;
+  display: inline-block;
+}
+.leftcenter{
+  position: absolute;
+  top: 0.5vw;
+  text-align: justify;
+  font-family: 'Lobster', cursive;
+  font-size: 5vw;
+  margin-bottom: 2vw;
+  padding: 1vw;
+  margin-left: 3vw;
+  margin-top: 0vw;
+  display: inline-block;
+}
+
+#side {
+  position: absolute;
+  top: 10vw;
+}
+
+.logginnknapp{
+  height: 30px;
+  background:#f96f2f;
+  border:0;
+  padding:7px 20px 0px 20px;
+  color:#ffffff;
+  -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+   text-decoration: none;
+   color: initial;
+   border-radius: 5px;
+   border: 1px solid brown;
+}
+.logginnknapp:hover{
+  color: white;
+  background: black;
+}
+
+.container{
+  text-align: center;
+  background-color: black;
+  width: 25%;
+  margin: 0 auto;
+  padding: 25px 20px 100px 20px;
+  height: 100%;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+}
+
 #meny {
   z-index: 1;
-  width: 10vw;
+  width: 15vw;
   background-color: #233656;
   color: white;
   margin: 0;
   position: fixed;
   overflow: scroll;
-<<<<<<< HEAD
   height: 85%;
-=======
-  height: 40vw;
-
-}
-
-.text {
-  font-size: 2vw;
-<<<<<<< HEAD
->>>>>>> master
-=======
-  text-shadow: 0.1em 0.1em 0.4em black
->>>>>>> master
 }
 
 .rad1, .rad2{
@@ -93,7 +143,7 @@ width: 3vw;
   background-color: white;
   left: 15vw;
   float: right;
-  margin: 3vw;
+  margin: 2vw;
   overflow: hidden;
   padding-bottom: 25%;
   max-height: 17vh;
@@ -104,8 +154,8 @@ width: 3vw;
 }
 
 button{
-  background-color: grey;
-  border: grey;
+  background-color: white;
+  border: white;
 }
 
 .bilde {
@@ -178,17 +228,12 @@ h3 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  width: 5%;
+  width: 10%;
   text-align: center;
   float: right;
   text-decoration: none;
   color: initial;
   margin-right: 10px;
-  position: fixed;
-  left: 78%;
-}
-.profile{
-
 }
 
 ul {
@@ -222,5 +267,4 @@ li a:hover {
 a{
   color: inherit;
   text-decoration: none;
-  padding: 3vw 1vw;
 }
