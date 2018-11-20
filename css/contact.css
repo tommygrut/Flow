@@ -1,0 +1,154 @@
+body{
+  width: 100%;
+  padding: 0;
+  margin:0;
+  background-color: #CDD6D5;
+}
+
+header{
+  color: white;
+  padding-top: 0px;
+  background-color: #233656;
+  height: 10vw;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+  top: 0;
+}
+
+#hbilde {
+  height: 9vw;
+  display: inline-block;
+  padding-left: 11%;
+  padding-top: 0.5vw;
+}
+#england{
+width: 3vw;
+}
+#norway{
+width: 3vw;
+}
+.language{
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+.leftcenter{
+  position: absolute;
+  top: 0.5vw;
+  text-align: justify;
+  font-family: 'Lobster', cursive;
+  font-size: 5vw;
+  margin-bottom: 2vw;
+  padding: 1vw;
+  margin-left: 1vw;
+  margin-top: 0vw;
+  display: inline-block;
+  text-shadow: 0.1em 0.1em 0.4em black
+}
+h1 {
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Playfair Display', serif;
+}
+
+
+/*NAVBAR*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    left: 40vw;
+    top: 2vw;
+    font-size: 2vw;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2vw;
+    text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#header_Ul li.current a {
+  text-decoration: underline;
+  font-weight: ;
+  text-shadow: 0.1em 0.1em 0.4em black ;
+}
+
+#header_Ul li a {
+  text-shadow: 0.1em 0.1em 0.4em black
+}
+
+
+.hoveddel {
+  height: 65vw;
+  margin-top: 13vw;
+}
+
+.kontaktskjema {
+  margin-top: 2vw;
+  margin-left: 28vw;
+  top: 50%;
+  border-radius: 2px;
+  background-color: #415B76;
+  padding: 20px;
+  width: 40vw;
+  color: white;
+}
+
+textarea{
+  height: 100px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+input[type=submit] {
+    background-color: #233656;
+    color: white;
+    border: none;
+    font-size: 2vw;
+    border-radius: 2px;
+}
+
+footer{
+  height: 5%;
+  color: white;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #233656;
+  width: 100%;
+
+}
+
+table{
+  width: 80%;
+  margin-left: 20%;
+  table-layout: fixed;
+}

@@ -13,7 +13,6 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
-
 }
 #hbilde {
   height: 9vw;
@@ -31,7 +30,17 @@ header{
   margin-top: 0vw;
   display: inline-block;
 }
-
+#england{
+width: 3vw;
+}
+#norway{
+width: 3vw;
+}
+.language{
+  position:absolute;
+  top: 0;
+  right: 0;
+}
 a{
   color: inherit;
   text-decoration: none;
@@ -87,13 +96,13 @@ table{
 .logginnknapp{
   float: right;
   margin-top: 3vw;
-  margin-right: 3vw;
+  margin-right: 8vw;
   display: inline-block;
   height: 4vw;
   padding: 0 4vw;
-  border-radius: 2vw;
+  border-radius: 0.3vw;
   font-weight: 700;
-  font-size: 1.3vw;
+  font-size: 1vw;
   line-height: 4vw;
   box-sizing: border-box;
   text-transform: uppercase;
