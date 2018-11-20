@@ -51,33 +51,32 @@
       </div>
 
       <div class="overlayInner" id="overlay4">
+        <div>
+          <p id="lukkVindu4">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
-            <div>
-              <p id="lukkVindu4">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
-            </div>
-          </div>
-
-    </body>
-    <script type="text/javascript">
+  </body>
+  <script type="text/javascript">
 
 
-      var artikkel4El = document.getElementById("artikkel4");
+    var artikkel4El = document.getElementById("artikkel4");
 
-      var lukkVindu4El=document.getElementById("lukkVindu4");
+    var lukkVindu4El=document.getElementById("lukkVindu4");
 
-      artikkel4El.addEventListener("click", artikkel4);
+    artikkel4El.addEventListener("click", artikkel4);
 
-      lukkVindu4El.addEventListener("click", lukk);
+    lukkVindu4El.addEventListener("click", lukk);
 
     function artikkel4() {
-    document.getElementById("overlay4").style.display = "block";
+      document.getElementById("overlay4").style.display = "block";
     }
     function lukk() {
-    document.getElementById("overlay4").style.display = "none";
+      document.getElementById("overlay4").style.display = "none";
     }
 
-    </script>
+  </script>
   </html>
