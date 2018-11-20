@@ -95,11 +95,11 @@ header{
     text-decoration: underline;
 }
 
-/*
-#miniHeader_Div li a  {
+
+#miniHeader_Ul li.current a  {
   text-decoration: underline;
 }
-*/
+
 
 /**/
 
