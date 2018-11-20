@@ -38,8 +38,8 @@ header{
   font-family: 'Lobster', cursive;
   font-size: 5vw;
   margin-bottom: 2vw;
-  padding: 1vw;
   margin-left: 1vw;
+  padding: 1vw;
   margin-top: 0vw;
   display: inline-block;
   text-shadow: 0.1em 0.1em 0.4em black
@@ -75,18 +75,7 @@ width: 3vw;
   height: 9vw;
   display: inline-block;
 }
-.leftcenter{
-  position: absolute;
-  top: 0.5vw;
-  text-align: justify;
-  font-family: 'Lobster', cursive;
-  font-size: 5vw;
-  margin-bottom: 2vw;
-  padding: 1vw;
-  margin-left: 3vw;
-  margin-top: 0vw;
-  display: inline-block;
-}
+
 
 #side {
   position: absolute;
