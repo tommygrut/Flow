@@ -11,12 +11,12 @@
 
     <header>
       <a href="hovedside.html">
-        <img src="../bilder/newspaper.png" id="hbilde" title="logo">
         <h1 class="leftcenter">Flow</h1>
+          <img src="../bilder/newspaper.png" id="hbilde" title="logo">
       </a>
-    <ul>
 
-    <li><a href="hovedside.html">News</a></li>
+    <ul id="header_Ul">
+    <li class="current"><a href="hovedside.html">News</a></li>
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="about_questions.html">About Flow</a></li>
@@ -56,33 +56,31 @@
       </div>
 
       <div class="overlayInner" id="overlay3">
+        <div>
+          <p id="lukkVindu3">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/peps-gullgutt.png" title="Pepes gullgutt" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
-            <div>
-              <p id="lukkVindu3">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/peps-gullgutt.png" title="Pepes gullgutt" alt="Article screenshot" class="A-bilde">
-            </div>
-          </div>
+  </body>
+  <script type="text/javascript">
 
-    </body>
-    <script type="text/javascript">
+    var artikkel3El = document.getElementById("artikkel3");
 
-      var artikkel3El = document.getElementById("artikkel3");
+    var lukkVindu3El=document.getElementById("lukkVindu3");
 
-      var lukkVindu3El=document.getElementById("lukkVindu3");
+    artikkel3El.addEventListener("click", artikkel3);
 
-      artikkel3El.addEventListener("click", artikkel3);
-
-      lukkVindu3El.addEventListener("click", lukk);
+    lukkVindu3El.addEventListener("click", lukk);
 
     function artikkel3() {
-    document.getElementById("overlay3").style.display = "block";
+      document.getElementById("overlay3").style.display = "block";
     }
 
     function lukk() {
-    document.getElementById("overlay3").style.display = "none";
+      document.getElementById("overlay3").style.display = "none";
     }
 
-    </script>
-  </html>
+  </script>  </html>

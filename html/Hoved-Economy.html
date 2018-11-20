@@ -11,12 +11,12 @@
 
     <header>
       <a href="hovedside.html">
-        <img src="../bilder/newspaper.png" id="hbilde" title="logo">
         <h1 class="leftcenter">Flow</h1>
+          <img src="../bilder/newspaper.png" id="hbilde" title="logo">
       </a>
-    <ul>
 
-      <li><a href="Hovedside.html">News</a></li>
+    <ul id="header_Ul">
+    <li class="current"><a href="Hovedside.html">News</a></li>
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="websiteplan.html">About Flow</a></li>
@@ -55,33 +55,32 @@
       </div>
 
       <div class="overlayInner" id="overlay4">
+        <div>
+          <p id="lukkVindu4">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
-            <div>
-              <p id="lukkVindu4">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
-            </div>
-          </div>
-
-    </body>
-    <script type="text/javascript">
+  </body>
+  <script type="text/javascript">
 
 
-      var artikkel4El = document.getElementById("artikkel4");
+    var artikkel4El = document.getElementById("artikkel4");
 
-      var lukkVindu4El=document.getElementById("lukkVindu4");
+    var lukkVindu4El=document.getElementById("lukkVindu4");
 
-      artikkel4El.addEventListener("click", artikkel4);
+    artikkel4El.addEventListener("click", artikkel4);
 
-      lukkVindu4El.addEventListener("click", lukk);
+    lukkVindu4El.addEventListener("click", lukk);
 
     function artikkel4() {
-    document.getElementById("overlay4").style.display = "block";
+      document.getElementById("overlay4").style.display = "block";
     }
     function lukk() {
-    document.getElementById("overlay4").style.display = "none";
+      document.getElementById("overlay4").style.display = "none";
     }
 
-    </script>
+  </script>
   </html>

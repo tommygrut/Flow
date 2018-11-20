@@ -11,21 +11,21 @@
 
     <header>
       <a href="hovedside.html">
-        <img src="../bilder/newspaper.png" id="hbilde" title="logo">
         <h1 class="leftcenter">Flow</h1>
+          <img src="../bilder/newspaper.png" id="hbilde" title="logo">
       </a>
       <div class="language">
         <img src="../bilder/england.png" id="england" alt="England">
         <img src="../bilder/norway.png" id="norway" alt="Norway">
       </div>
-    <ul>
 
-    <li><a href="Hovedside.html">News</a></li>
+    <ul id="header_Ul">
+    <li class="current"><a href="Hovedside.html">News</a></li>
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="about_questions.html">About Flow</a></li>
     <li style="float: right;"><a href="main.html">Sign out</a></li>
-    
+
     </ul>
 
     </header>
@@ -99,117 +99,112 @@
 
 
       <div class="overlayInner" id="overlay2">
-
-            <div>
-              <p id="lukkVindu2">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/Den-kontroversielle-dommeren-kan-ha-kostet-demokratene-flere-senatorer.png" title="Den kontroversielle dommeren kan ha kostet demokratene flere senatorer" alt="Article screenshot"  class="A-bilde">
-            </div>
-          </div>
+        <div>
+          <p id="lukkVindu2">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/Den-kontroversielle-dommeren-kan-ha-kostet-demokratene-flere-senatorer.png" title="Den kontroversielle dommeren kan ha kostet demokratene flere senatorer" alt="Article screenshot"  class="A-bilde">
+        </div>
+      </div>
 
 
       <div class="overlayInner" id="overlay3">
-
-            <div>
-              <p id="lukkVindu3">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/peps-gullgutt.png" title="Pepes gullgutt" alt="Article screenshot" class="A-bilde">
-            </div>
-          </div>
-
-
-          <div class="overlayInner" id="overlay4">
-
-                <div>
-                  <p id="lukkVindu4">Close</p>
-                </div>
-                <div>
-                    <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
-                </div>
-              </div>
+        <div>
+          <p id="lukkVindu3">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/peps-gullgutt.png" title="Pepes gullgutt" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
 
-          <div class="overlayInner" id="overlay5">
+      <div class="overlayInner" id="overlay4">
+        <div>
+          <p id="lukkVindu4">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/stor-sjanse-for-at-du-kjenner-en-svindler.png" title="Stor sjanse for at du kjenner en svindler" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
-                <div>
-                  <p id="lukkVindu5">Close</p>
-                </div>
-                <div>
-                    <img src="../bilder/pinks-husband-warns-looters-will-be-shot-on-site-as-clean-up-from-wildfire-begins.png" title="Pink's husband warns 'looters will be shot on site' as cleanup from wildfire begins" alt="Article screenshot" class="A-bilde">
-                </div>
-              </div>
+
+      <div class="overlayInner" id="overlay5">
+        <div>
+          <p id="lukkVindu5">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/pinks-husband-warns-looters-will-be-shot-on-site-as-clean-up-from-wildfire-begins.png" title="Pink's husband warns 'looters will be shot on site' as cleanup from wildfire begins" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
 
-          <div class="overlayInner" id="overlay6">
+      <div class="overlayInner" id="overlay6">
+        <div>
+          <p id="lukkVindu6">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/hillary-clinton-remains-inauthentic-unlikable-and-out-of-touch-she-will-never-be-president.png" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
+    </div>
 
-                <div>
-                  <p id="lukkVindu6">Close</p>
-                </div>
-                <div>
-                    <img src="../bilder/hillary-clinton-remains-inauthentic-unlikable-and-out-of-touch-she-will-never-be-president.png" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" alt="Article screenshot" class="A-bilde">
-                </div>
-              </div>
-            </div>
+  </body>
+  <script type="text/javascript">
 
-    </body>
-    <script type="text/javascript">
+    var artikkel1El = document.getElementById("artikkel1");
+    var artikkel2El = document.getElementById("artikkel2");
+    var artikkel3El = document.getElementById("artikkel3");
+    var artikkel4El = document.getElementById("artikkel4");
+    var artikkel5El = document.getElementById("artikkel5");
+    var artikkel6El = document.getElementById("artikkel6");
 
-      var artikkel1El = document.getElementById("artikkel1");
-      var artikkel2El = document.getElementById("artikkel2");
-      var artikkel3El = document.getElementById("artikkel3");
-      var artikkel4El = document.getElementById("artikkel4");
-      var artikkel5El = document.getElementById("artikkel5");
-      var artikkel6El = document.getElementById("artikkel6");
+    var lukkVindu1El=document.getElementById("lukkVindu1");
+    var lukkVindu2El=document.getElementById("lukkVindu2");
+    var lukkVindu3El=document.getElementById("lukkVindu3");
+    var lukkVindu4El=document.getElementById("lukkVindu4");
+    var lukkVindu5El=document.getElementById("lukkVindu5");
+    var lukkVindu6El=document.getElementById("lukkVindu6");
 
-      var lukkVindu1El=document.getElementById("lukkVindu1");
-      var lukkVindu2El=document.getElementById("lukkVindu2");
-      var lukkVindu3El=document.getElementById("lukkVindu3");
-      var lukkVindu4El=document.getElementById("lukkVindu4");
-      var lukkVindu5El=document.getElementById("lukkVindu5");
-      var lukkVindu6El=document.getElementById("lukkVindu6");
+    artikkel1El.addEventListener("click", artikkel1);
+    artikkel2El.addEventListener("click", artikkel2);
+    artikkel3El.addEventListener("click", artikkel3);
+    artikkel4El.addEventListener("click", artikkel4);
+    artikkel5El.addEventListener("click", artikkel5);
+    artikkel6El.addEventListener("click", artikkel6);
 
-      artikkel1El.addEventListener("click", artikkel1);
-      artikkel2El.addEventListener("click", artikkel2);
-      artikkel3El.addEventListener("click", artikkel3);
-      artikkel4El.addEventListener("click", artikkel4);
-      artikkel5El.addEventListener("click", artikkel5);
-      artikkel6El.addEventListener("click", artikkel6);
-
-      lukkVindu1El.addEventListener("click", lukk);
-      lukkVindu2El.addEventListener("click", lukk);
-      lukkVindu3El.addEventListener("click", lukk);
-      lukkVindu4El.addEventListener("click", lukk);
-      lukkVindu5El.addEventListener("click", lukk);
-      lukkVindu6El.addEventListener("click", lukk);
+    lukkVindu1El.addEventListener("click", lukk);
+    lukkVindu2El.addEventListener("click", lukk);
+    lukkVindu3El.addEventListener("click", lukk);
+    lukkVindu4El.addEventListener("click", lukk);
+    lukkVindu5El.addEventListener("click", lukk);
+    lukkVindu6El.addEventListener("click", lukk);
 
     function artikkel1() {
-    document.getElementById("overlay1").style.display = "block";
+      document.getElementById("overlay1").style.display = "block";
     }
     function artikkel2() {
-    document.getElementById("overlay2").style.display = "block";
+      document.getElementById("overlay2").style.display = "block";
     }
     function artikkel3() {
-    document.getElementById("overlay3").style.display = "block";
+      document.getElementById("overlay3").style.display = "block";
     }
     function artikkel4() {
-    document.getElementById("overlay4").style.display = "block";
+      document.getElementById("overlay4").style.display = "block";
     }
     function artikkel5() {
-    document.getElementById("overlay5").style.display = "block";
+      document.getElementById("overlay5").style.display = "block";
     }
     function artikkel6() {
-    document.getElementById("overlay6").style.display = "block";
+      document.getElementById("overlay6").style.display = "block";
     }
     function lukk() {
-    document.getElementById("overlay1").style.display = "none";
-    document.getElementById("overlay2").style.display = "none";
-    document.getElementById("overlay3").style.display = "none";
-    document.getElementById("overlay4").style.display = "none";
-    document.getElementById("overlay5").style.display = "none";
-    document.getElementById("overlay6").style.display = "none";
+      document.getElementById("overlay1").style.display = "none";
+      document.getElementById("overlay2").style.display = "none";
+      document.getElementById("overlay3").style.display = "none";
+      document.getElementById("overlay4").style.display = "none";
+      document.getElementById("overlay5").style.display = "none";
+      document.getElementById("overlay6").style.display = "none";
     }
 
-    </script>
-  </html>
+  </script>
+</html>

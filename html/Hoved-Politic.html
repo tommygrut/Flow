@@ -11,12 +11,12 @@
 
     <header>
       <a href="hovedside.html">
-        <img src="../bilder/newspaper.png" id="hbilde" title="logo">
         <h1 class="leftcenter">Flow</h1>
+          <img src="../bilder/newspaper.png" id="hbilde" title="logo">
       </a>
-    <ul>
 
-    <li><a href="Hovedside.html">News</a></li>
+    <ul id="header_Ul">
+    <li class="current"><a href="Hovedside.html">News</a></li>
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="websiteplan.html">About Flow</a></li>
@@ -66,72 +66,68 @@
       </div>
 
       <div class="overlayInner" id="overlay1">
-
-            <div>
-              <p id="lukkVindu1">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/US-mid-term-election.png" title="US mid-term election results 2018: Maps, charts and analysis" alt="Article screenshot" class="A-bilde">
-            </div>
-          </div>
+        <div>
+          <p id="lukkVindu1">Close</p>
+        </div>
+        <div>
+          <img src="../bilder/US-mid-term-election.png" title="US mid-term election results 2018: Maps, charts and analysis" alt="Article screenshot" class="A-bilde">
+        </div>
+      </div>
 
 
       <div class="overlayInner" id="overlay2">
-
-            <div>
-              <p id="lukkVindu2">Close</p>
-            </div>
-            <div>
-                <img src="../bilder/Den-kontroversielle-dommeren-kan-ha-kostet-demokratene-flere-senatorer.png" title="Den kontroversielle dommeren kan ha kostet demokratene flere senatorer" alt="Article screenshot"  class="A-bilde">
-            </div>
+          <div>
+            <p id="lukkVindu2">Close</p>
           </div>
-
-          <div class="overlayInner" id="overlay3">
-
-                <div>
-                  <p id="lukkVindu3">Close</p>
-                </div>
-                <div>
-                    <img src="../bilder/hillary-clinton-remains-inauthentic-unlikable-and-out-of-touch-she-will-never-be-president.png" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" alt="Article screenshot" class="A-bilde">
-                </div>
-              </div>
+          <div>
+            <img src="../bilder/Den-kontroversielle-dommeren-kan-ha-kostet-demokratene-flere-senatorer.png" title="Den kontroversielle dommeren kan ha kostet demokratene flere senatorer" alt="Article screenshot"  class="A-bilde">
+          </div>
         </div>
 
+        <div class="overlayInner" id="overlay3">
+          <div>
+            <p id="lukkVindu3">Close</p>
+          </div>
+          <div>
+            <img src="../bilder/hillary-clinton-remains-inauthentic-unlikable-and-out-of-touch-she-will-never-be-president.png" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" alt="Article screenshot" class="A-bilde">
+          </div>
+        </div>
+    </div>
 
 
 
-    </body>
-    <script type="text/javascript">
 
-      var artikkel1El = document.getElementById("artikkel1");
-      var artikkel2El = document.getElementById("artikkel2");
-      var artikkel3El = document.getElementById("artikkel3");
+  </body>
+  <script type="text/javascript">
 
-      var lukkVindu1El=document.getElementById("lukkVindu1");
-      var lukkVindu2El=document.getElementById("lukkVindu2");
-      var lukkVindu3El=document.getElementById("lukkVindu3");
+    var artikkel1El = document.getElementById("artikkel1");
+    var artikkel2El = document.getElementById("artikkel2");
+    var artikkel3El = document.getElementById("artikkel3");
+    var lukkVindu1El=document.getElementById("lukkVindu1");
+    var lukkVindu2El=document.getElementById("lukkVindu2");
+    var lukkVindu3El=document.getElementById("lukkVindu3");
 
-      artikkel1El.addEventListener("click", artikkel1);
-      artikkel2El.addEventListener("click", artikkel2);
-      artikkel3El.addEventListener("click", artikkel3);
+    artikkel1El.addEventListener("click", artikkel1);
+    artikkel2El.addEventListener("click", artikkel2);
+    artikkel3El.addEventListener("click", artikkel3);
 
-      lukkVindu1El.addEventListener("click", lukk);
-      lukkVindu2El.addEventListener("click", lukk);
-      lukkVindu3El.addEventListener("click", lukk);
+    lukkVindu1El.addEventListener("click", lukk);
+    lukkVindu2El.addEventListener("click", lukk);
+    lukkVindu3El.addEventListener("click", lukk);
 
     function artikkel1() {
-    document.getElementById("overlay1").style.display = "block";
+      document.getElementById("overlay1").style.display = "block";
     }
     function artikkel2() {
-    document.getElementById("overlay2").style.display = "block";
+      document.getElementById("overlay2").style.display = "block";
     }
     function artikkel3() {
-    document.getElementById("overlay3").style.display = "block";
+      document.getElementById("overlay3").style.display = "block";
     }
     function lukk() {
-    document.getElementById("overlay1").style.display = "none";
-    document.getElementById("overlay2").style.display = "none";
-    document.getElementById("overlay3").style.display = "none";
+      document.getElementById("overlay1").style.display = "none";
+      document.getElementById("overlay2").style.display = "none";
+      document.getElementById("overlay3").style.display = "none";
     }
 
     </script>
