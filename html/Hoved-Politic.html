@@ -37,30 +37,35 @@
           <h1><a href="Hoved-Politic.html">Politic</a></h1>
         </div>
         <div class="options">
-          <h1><a href="">Choose papers</a></h1>
+          <h1><a href="Velg.html">Choose papers</a></h1>
         </div>
       </div>
 
       <div class="rad1" id="artikkel1" title="US mid-term election results 2018: Maps, charts and analysis">
         <img src="../bilder/H-US-map.PNG" class="bilde" alt="Voting map of USA">
+        <button tabindex="3">
         <h3>English | BBC</h3>
         <h1>US mid-term election results 2018...</h1>
       </div>
       <div class="rad1" id="artikkel2" title="Den kontroversielle dommeren kan ha kostet demokratene flere senatorer">
         <img src="../bilder/H-koste.PNG" class="bilde" alt="Two unhappy people">
-        <h3>Norwegian | Aftenposten</h3>
-        <h1>Den kontroversielle dommeren...</h1>
+        <button tabindex="2">
+          <h3>Norwegian | Aftenposten</h3>
+          <h1>Den kontroversielle dommeren...</h1>
+        </button>
       </div>
       <div class="rad1" id="artikkel3" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" style="margin-left:19vw;">
         <img src="../bilder/H-hillary.png" class="bilde" alt="Picture of Fox News station with a picture of Hillary Clinton on the TV" >
-        <h3>English | Fox News</h3>
-        <h1>Hillary Clinton remains inauthentic...</h1>
+        <button tabindex="1">
+          <h3>English | Fox News</h3>
+          <h1>Hillary Clinton remains inauthentic...</h1>
+        </button>
       </div>
 
       <div class="overlayInner" id="overlay1">
 
             <div>
-              <p id="lukkVindu1">Close</p>
+              <button tabindex="3" id="lukkVindu1" style="margin-bottom: 5px;">Close</button>
             </div>
             <div>
                 <img src="../bilder/US-mid-term-election.png" title="US mid-term election results 2018: Maps, charts and analysis" alt="Article screenshot" class="A-bilde">
@@ -71,23 +76,23 @@
       <div class="overlayInner" id="overlay2">
 
             <div>
-              <p id="lukkVindu2">Close</p>
+              <button tabindex="2" id="lukkVindu2" style="margin-bottom: 5px;">Close</button>
             </div>
             <div>
                 <img src="../bilder/Den-kontroversielle-dommeren-kan-ha-kostet-demokratene-flere-senatorer.png" title="Den kontroversielle dommeren kan ha kostet demokratene flere senatorer" alt="Article screenshot"  class="A-bilde">
             </div>
           </div>
 
-          <div class="overlayInner" id="overlay3">
 
-                <div>
-                  <p id="lukkVindu3">Close</p>
-                </div>
-                <div>
-                    <img src="../bilder/hillary-clinton-remains-inauthentic-unlikable-and-out-of-touch-she-will-never-be-president.png" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" alt="Article screenshot" class="A-bilde">
-                </div>
-              </div>
-        </div>
+      <div class="overlayInner" id="overlay3">
+
+            <div>
+              <button tabindex="1" id="lukkVindu3" style="margin-bottom: 5px;">Close</button>
+            </div>
+            <div>
+              <img src="../bilder/hillary-clinton-remains-inauthentic-unlikable-and-out-of-touch-she-will-never-be-president.png" title="Hillary Clinton remains inauthentic, unlikable and out of touch – she will never be president" alt="Article screenshot" class="A-bilde">
+          </div>
+          </div>
 
 
 
@@ -97,15 +102,15 @@
 
       var artikkel1El = document.getElementById("artikkel1");
       var artikkel2El = document.getElementById("artikkel2");
-      var artikkel6El = document.getElementById("artikkel3");
+      var artikkel3El = document.getElementById("artikkel3");
 
       var lukkVindu1El=document.getElementById("lukkVindu1");
       var lukkVindu2El=document.getElementById("lukkVindu2");
-      var lukkVindu6El=document.getElementById("lukkVindu3");
+      var lukkVindu3El=document.getElementById("lukkVindu3");
 
       artikkel1El.addEventListener("click", artikkel1);
       artikkel2El.addEventListener("click", artikkel2);
-      artikkel6El.addEventListener("click", artikkel3);
+      artikkel3El.addEventListener("click", artikkel3);
 
       lukkVindu1El.addEventListener("click", lukk);
       lukkVindu2El.addEventListener("click", lukk);
