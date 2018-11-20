@@ -81,7 +81,7 @@ li a {
 }
 
 li a:hover {
-  text-decoration: underline;
+  background-color: #415b76;
 }
 
 a{
@@ -90,8 +90,7 @@ a{
 }
 
 #header_Ul li.current a {
-  text-decoration: underline;
-  font-weight: ;
+  background-color: #415b76;
   text-shadow: 0.1em 0.1em 0.4em black ;
 }
 

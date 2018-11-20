@@ -72,7 +72,7 @@ li a {
 }
 
 li a:hover {
-  text-decoration: underline;
+  background-color: #415b76;
 }
 
 a{
