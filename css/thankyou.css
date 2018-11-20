@@ -75,7 +75,7 @@ a{
 .hoveddel {
   height: 65vw;
   margin-top: 13vw;
-  
+
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
@@ -103,7 +103,7 @@ footer{
 }
 
 table{
-  width: 94%;
-  margin-left: 6%;
+  width: 80%;
+  margin-left: 20%;
   table-layout: fixed;
 }
