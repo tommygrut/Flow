@@ -13,6 +13,18 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
+  top: 0;
+}
+#england{
+width: 3vw;
+}
+#norway{
+width: 3vw;
+}
+.language{
+  position:absolute;
+  top: 0;
+  right: 0;
 }
 
 
@@ -194,7 +206,15 @@ h1 {
 
 
 }
-
+.profile{
+  padding-top: 11%;
+  font-family: "Playfair Display", serif,
+}
+.profileheader{
+  border-bottom: 2px solid #;
+  margin: 0 auto;
+  width: 40%;
+}
 .about-container {
   margin-bottom: 5%;
   line-height: 1.4;
