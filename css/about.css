@@ -286,7 +286,7 @@ h1 {
   font-size: 0.63em;
 }
 
-tr, td{
+#footertable tr, td{
   padding: 1.5vw;
 }
 .changepass{
@@ -314,7 +314,7 @@ footer a{
   text-decoration: none;
 }
 
-table{
+#footertable table{
   width: 80%;
   margin-left: 20%;
   table-layout: fixed;
