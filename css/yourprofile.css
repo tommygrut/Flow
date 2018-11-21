@@ -77,7 +77,8 @@ h1 {
     overflow: hidden;
     display: inline-block;
     position: absolute;
-    left: 40vw;
+    left: 26vw;
+    width: 70%;
     top: 2vw;
     font-size: 2vw;
 }

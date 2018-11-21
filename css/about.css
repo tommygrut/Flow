@@ -123,6 +123,14 @@ width: 3vw;
   text-shadow: 0.1em 0.1em 0.4em black;
 }
 
+#header_Ul li.navspace a {
+  margin-right: 50%;
+}
+
+#navspace {
+  margin-right: 0%;
+}
+
 
 /**/
 
@@ -163,10 +171,14 @@ h1 {
     overflow: hidden;
     display: inline-block;
     position: absolute;
-    left: 40vw;
+    left: 26vw;
+    width: 70%;
     top: 2vw;
     font-size: 2vw;
+
+
 }
+
 
 .TopHeader li {
     float: left;
@@ -308,7 +320,7 @@ footer{
   width: 100%;
 }
 
-footer a{
+a{
   color: inherit;
   text-decoration: none;
 }
