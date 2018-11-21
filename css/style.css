@@ -17,6 +17,13 @@
     top: 0;
   }
 
+ .indexH2 {
+    text-shadow: 0.1em 0.1em 0.4em black;
+    font-size: 2.7em;
+    margin-bottom: 5%;
+
+  }
+
   #hbilde {
     height: 9vw;
     display: inline-block;
@@ -61,7 +68,7 @@
     padding: 0 4vw;
     border-radius: 0.3vw;
     font-weight: 700;
-    font-size: 1vw;
+    font-size: 1em;
     line-height: 4vw;
     box-sizing: border-box;
     text-transform: uppercase;
@@ -74,7 +81,9 @@
   .logginnknapp:hover{
     background-color: #7B9BA6;
   }
-  
+
+
+
   a{
     color: inherit;
     text-decoration: none;
@@ -105,15 +114,19 @@
   #register{
     float: left;
     font-size: 1vw;
-    margin: 5px 0 5px 20px;
+    margin: 6% 0 5px 20px;
+    font-size: 1em;
   }
   #glemtpassord{
     float: right;
     font-size: 1vw;
-    margin: 5px 0 5px 20px;
+    margin: 6% 0 5px 20px;
+    font-size: 1em;
   }
   .signupbutton{
   text-decoration: none;
+  text-shadow: 0.1em 0.1em 0.4em black;
+  font-size: 4em;
   }
   .signupbutton:hover{
     text-decoration: underline white;
