@@ -28,8 +28,6 @@ width: 3vw;
 }
 
 
-
-
 #header_Ul li.current a {
   background-color: #415b76;
   text-shadow: 0.1em 0.1em 0.4em black ;
@@ -105,18 +103,16 @@ h1 {
   text-decoration: none;
 }
 
-.TopHeader {
-  /* Banner idé
-  background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/blue-banner-background-10.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  */
+
+.profile{
+  padding-top: 11%;
+  font-family: "Playfair Display", serif,
 }
-
-
-
-
-
+.profilecontent{
+  border-top: 2px solid #233656;
+  width: 50%;
+  margin: 0 auto;
+}
 
 
 .logginnknapp{
@@ -147,9 +143,7 @@ h1 {
   border-bottom: .15vw solid #233656;
 }
 
-
-
-#profiletable tr, td{
+ tr, td{
   padding: 1.5vw;
 }
 .changepass{
@@ -177,7 +171,7 @@ footer{
   width: 100%;
 
 }
- table{
+table{
   width: 100%;
   margin-left: 10%;
   table-layout: fixed;
