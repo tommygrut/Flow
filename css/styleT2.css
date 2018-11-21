@@ -109,14 +109,10 @@ width: 3vw;
   position: fixed;
   overflow: scroll;
   height: 85%;
+  text-shadow: 0.15em 0.15em 1em black;
 }
 
 
-
-.text {
-  font-size: 2vw;
-  text-shadow: 0.1em 0.1em 0.4em black;
-}
 
 .rad1, .rad2{
   display: inline-block;
@@ -154,7 +150,7 @@ button{
 
 h1 {
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 h3 {
@@ -166,10 +162,34 @@ h3 {
   padding-top: 10%;
   padding-bottom: 10%;
   margin: 0;
+  border-bottom: solid 0.1em white;
+  font-size: 0.5vw;
 }
+
 .options:hover {
   background-color: #415b76;
 }
+
+#currentGeneral {
+  background-color: #415b76;
+}
+
+#currentSport {
+  background-color: #415b76;
+}
+
+#currentEconomy {
+  background-color: #415b76;
+}
+
+#currentPolitics {
+  background-color: #415b76;
+}
+
+#currentPapers {
+  background-color: #415b76;
+}
+
 
 
 #overlay1 {
