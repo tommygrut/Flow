@@ -236,8 +236,8 @@ h1 {
 .logginnknapp{
   display: inline-block;
   height: 4vw;
-  padding: 0 4vw;
-  border-radius: 2vw;
+  padding: 0 1.4vw;
+  border-radius: .3vw;
   font-weight: 700;
   font-size: 1vw;
   line-height: 4vw;
@@ -252,19 +252,13 @@ h1 {
 .logginnknapp:hover{
   background-color: #7B9BA6;
 }
-.changepass{
-  text-align: center;
-  background-color: #415B76;
-  width: 35vw;
-  margin: 0 auto;
-  margin-top: 17vw;
-  margin-bottom: 5vw;
-  padding: 6vw 2vw 6vw 2vw;
-  color: white;
-  border-radius: 2vw;
-  top: 15vw;
-
-  left: 32.5vw;
+#bredde{
+  width: 75%;
+  padding: 1vw 2.5vw;
+  margin: .5vw 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: .15vw solid #233656;
 }
 
 .about-container {
