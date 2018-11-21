@@ -211,6 +211,7 @@ h1 {
 
 .maindiv {
   padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .about-header {
@@ -303,8 +304,6 @@ footer{
   height: 5%;
   color: white;
   margin: 0 auto;
-  padding-top: 2%;
-  padding-bottom: 2%;
   background-color: #233656;
   width: 100%;
 }
@@ -314,7 +313,12 @@ footer a{
   text-decoration: none;
 }
 
+td{
+  padding: 0.3vw;
+}
  table{
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
   width: 80%;
   margin-left: 20%;
   table-layout: fixed;

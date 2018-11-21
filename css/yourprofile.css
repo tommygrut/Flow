@@ -109,11 +109,18 @@ h1 {
   font-family: "Playfair Display", serif,
 }
 .profilecontent{
-  border-top: 2px solid #233656;
   width: 50%;
   margin: 0 auto;
 }
 
+#styling{
+  width: 100%;
+  font-size: 2vw;
+}
+#styling td{
+  padding-bottom: 2vw;
+  margin: 2vw;
+}
 
 .logginnknapp{
   display: inline-block;
@@ -130,6 +137,9 @@ h1 {
   color: white;
   position: relative;
   overflow: hidden;
+  width: 15vw;
+  text-align: center;
+  margin-bottom: 4vw;
 }
 .logginnknapp:hover{
   background-color: #7B9BA6;
@@ -147,7 +157,9 @@ h1 {
   padding: 1.5vw;
 }
 .changepass{
-  position: absolute;
+  margin-top: 2vw;
+  width: 20vw;
+  margin: 0 auto;
   top: 40vw;
   left: 43vw;
 }
@@ -165,14 +177,19 @@ footer{
   height: 5%;
   color: white;
   margin: 0 auto;
-  padding-top: 2%;
-  padding-bottom: 2%;
   background-color: #233656;
   width: 100%;
-
 }
+
+td{
+  padding: 0.3vw;
+}
+
 table{
-  width: 100%;
-  margin-left: 10%;
+  width: 80%;
+  margin-left: 20%;
   table-layout: fixed;
+  margin-left: 20%;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
 }
