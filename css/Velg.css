@@ -13,6 +13,7 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
+  border-bottom: solid 0.1em white;
 }
 #hbilde {
   height: 9vw;
@@ -62,7 +63,7 @@ width: 3vw;
 
 .text {
   font-size: 2vw;
-  text-shadow: 0.1em 0.1em 0.4em black
+  text-shadow: 0.1em 0.1em 0.4em black;
 }
 
 #meny {
@@ -74,6 +75,7 @@ width: 3vw;
   position: fixed;
   overflow: scroll;
   height: 85%;
+  text-shadow: 0.15em 0.15em 1em black;
 }
 
 
@@ -91,8 +93,14 @@ h1 {
   padding-top: 10%;
   padding-bottom: 10%;
   margin: 0;
+  border-bottom: solid 0.1em white;
+  font-size: 0.5vw;
 }
 .options:hover {
+  background-color: #415b76;
+}
+
+#currentPapers {
   background-color: #415b76;
 }
 
@@ -117,7 +125,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 2vw; 2vw;
+    padding: 2vw;
     text-decoration: none;
 }
 
