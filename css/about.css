@@ -225,11 +225,48 @@ h1 {
   padding-top: 11%;
   font-family: "Playfair Display", serif,
 }
-.profileheader{
-  border-bottom: 2px solid #;
+
+
+.profilecontent{
+  border-top: 2px solid #233656;
+  width: 50%;
   margin: 0 auto;
-  width: 40%;
+  display: flex;
 }
+.logginnknapp{
+  display: inline-block;
+  height: 4vw;
+  padding: 0 4vw;
+  border-radius: 2vw;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 4vw;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  align-self: left;
+  background-color:#233656 ;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.logginnknapp:hover{
+  background-color: #7B9BA6;
+}
+.changepass{
+  text-align: center;
+  background-color: #415B76;
+  width: 35vw;
+  margin: 0 auto;
+  margin-top: 17vw;
+  margin-bottom: 5vw;
+  padding: 6vw 2vw 6vw 2vw;
+  color: white;
+  border-radius: 2vw;
+  top: 15vw;
+
+  left: 32.5vw;
+}
+
 .about-container {
   margin-bottom: 5%;
   line-height: 1.4;
@@ -242,6 +279,19 @@ h1 {
   margin-bottom: 1%;
 }
 
+tr, td{
+  padding: 1.5vw;
+}
+.changepass{
+  position: absolute;
+  top: 40vw;
+  left: 43vw;
+}
+
+#link_tr td.link_td a{
+text-decoration: underline;
+color: blue;
+  }
 footer{
   height: 5%;
   color: white;
