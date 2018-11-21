@@ -13,6 +13,7 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
+  border-bottom: solid 0.1em white;
 }
 #hbilde {
   height: 9vw;
@@ -32,7 +33,7 @@ header{
   font-family: 'Lobster', cursive;
   font-size: 5vw;
   margin-bottom: 2vw;
-  margin-left: 1vw;
+  margin-left: 0vw;
   padding: 1vw;
   margin-top: 0vw;
   display: inline-block;
@@ -61,28 +62,11 @@ width: 3vw;
   top: 10vw;
 }
 
-.text {
-  font-size: 2vw;
-}
-
-#meny h1.text a {
-  text-shadow: 0.1em 0.1em 0.4em black;
-}
-
-.tekst{
-  padding-top: 2vw;
-  font-size: 2vw;
-}
-
 #hbilde {
   height: 9vw;
   display: inline-block;
-}
-
-
-#side {
-  position: absolute;
-  top: 10vw;
+  padding-left: 10%;
+  padding-top: 0.5vw;
 }
 
 .logginnknapp{
@@ -125,7 +109,10 @@ width: 3vw;
   position: fixed;
   overflow: scroll;
   height: 85%;
+  text-shadow: 0.15em 0.15em 1em black;
 }
+
+
 
 .rad1, .rad2{
   display: inline-block;
@@ -163,7 +150,7 @@ button{
 
 h1 {
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 h3 {
@@ -175,10 +162,34 @@ h3 {
   padding-top: 10%;
   padding-bottom: 10%;
   margin: 0;
+  border-bottom: solid 0.1em white;
+  font-size: 0.5vw;
 }
+
 .options:hover {
   background-color: #415b76;
 }
+
+#currentGeneral {
+  background-color: #415b76;
+}
+
+#currentSport {
+  background-color: #415b76;
+}
+
+#currentEconomy {
+  background-color: #415b76;
+}
+
+#currentPolitics {
+  background-color: #415b76;
+}
+
+#currentPapers {
+  background-color: #415b76;
+}
+
 
 
 #overlay1 {
@@ -247,6 +258,8 @@ button{
 
 #lukkVindu1, #lukkVindu2, #lukkVindu3, #lukkVindu4, #lukkVindu5, #lukkVindu6{
   background-color: grey;
+  position: fixed;
+  left: 75vw;
 }
 
 
@@ -258,7 +271,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 2vw; 2vw;
+    padding: 2vw;
     text-decoration: none;
 }
 
@@ -268,4 +281,5 @@ li a:hover {
 a{
   color: inherit;
   text-decoration: none;
+  padding: 3vw 1vw;
 }
