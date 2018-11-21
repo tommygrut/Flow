@@ -13,6 +13,7 @@ header{
   position: fixed;
   width: 100vw;
   z-index: 2;
+  border-bottom: solid 0.1em white;
 }
 #hbilde {
   height: 9vw;
