@@ -23,6 +23,13 @@
     margin-bottom: 5%;
 
   }
+  .container p {
+    text-shadow: 0.1em 0.1em 0.4em black;
+  }
+
+  .container h2 {
+    text-shadow: 0.1em 0.1em 0.4em black;
+  }
 
   #hbilde {
     height: 9vw;
@@ -112,14 +119,14 @@
   #register{
     float: left;
     font-size: 1vw;
-    margin: 6% 0 5px 20px;
-    font-size: 1em;
+    margin: 7% 0 5px 20px;
+    font-size: 1.2vw;
   }
   #glemtpassord{
     float: right;
     font-size: 1vw;
-    margin: 6% 0 5px 20px;
-    font-size: 1em;
+    margin: 7% 0 5px 20px;
+    font-size: 1.2vw;
   }
   .signupbutton{
   text-decoration: none;
