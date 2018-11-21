@@ -15,6 +15,15 @@ header{
   z-index: 2;
   border-bottom: solid 0.1em white;
 }
+
+#bbcLogo {
+  margin-top: 5%;
+}
+
+#bbcLogoBilde {
+  margin-bottom: 40%;
+}
+
 #hbilde {
   height: 9vw;
   display: inline-block;
