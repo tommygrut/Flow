@@ -62,7 +62,7 @@ width: 3vw;
 
 .text {
   font-size: 2vw;
-  text-shadow: 0.1em 0.1em 0.4em black
+  text-shadow: 0.1em 0.1em 0.4em black;
 }
 
 #meny {
@@ -117,7 +117,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 2vw; 2vw;
+    padding: 2vw;
     text-decoration: none;
 }
 
