@@ -126,7 +126,7 @@ width: 3vw;
   overflow: hidden;
   padding-bottom: 25%;
   max-height: 16vh;
-
+  text-align: center;
 }
 .rad2 {
   top: 70vw;
@@ -255,6 +255,7 @@ ul {
 
 button{
   border:white;
+  display: inline-block;
 }
 
 #lukkVindu1, #lukkVindu2, #lukkVindu3, #lukkVindu4, #lukkVindu5, #lukkVindu6{
