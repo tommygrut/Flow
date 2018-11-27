@@ -14,6 +14,7 @@ header{
   width: 100vw;
   z-index: 2;
   top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 #hbilde {
@@ -50,8 +51,7 @@ width: 3vw;
 h1 {
   text-align: center;
   font-size: 3vw;
-  font-family: 'Playfair Display', serif;
-}
+  font-family: 'Roboto', sans-serif;}
 
 
 /*NAVBAR*/

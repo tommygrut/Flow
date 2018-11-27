@@ -15,6 +15,7 @@
     width: 100vw;
     z-index: 2;
     top: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
  .indexH2 {
@@ -143,13 +144,11 @@
     margin-left: 6%;
     margin-right: 6%;
     font-size: 2.6vw;
-    font-family: 'Playfair Display', serif;
-  }
+    font-family: 'Roboto', sans-serif;  }
   #underBeskrivelse{
     margin-top: 8%;
     font-size: 0.6em;
-    font-family: 'Playfair Display', serif;
-  }
+    font-family: 'Roboto', sans-serif;  }
 
   #avisbildebakgrunn{
   }

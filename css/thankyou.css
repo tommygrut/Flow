@@ -14,6 +14,7 @@ header{
   width: 100vw;
   z-index: 2;
   top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 #hbilde {
@@ -98,8 +99,7 @@ a{
 .hoveddel {
   height: 65vw;
   margin-top: 13vw;
-
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 

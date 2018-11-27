@@ -14,6 +14,7 @@ header{
   width: 100vw;
   z-index: 2;
   top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 #england{
 width: 3vw;
@@ -94,7 +95,7 @@ width: 3vw;
   display: inline-block;
   font-size: 2em;
   text-transform: uppercase;
-  font-family:  "Playfair Display", Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   border-radius: 5px;
   padding-right: 1em;
@@ -213,8 +214,7 @@ h1 {
 /*About Page*/
 
 .about-div {
-  font-family: 'Playfair Display', serif;
-  width: 60%;
+  font-family: 'Roboto', sans-serif;  width: 60%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -244,8 +244,7 @@ h1 {
 }
 .profile{
   padding-top: 11%;
-  font-family: "Playfair Display", serif,
-}
+  font-family: 'Roboto', sans-serif;}
 
 
 .profilecontent{
