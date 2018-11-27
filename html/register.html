@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Flow | Innlogging</title>
+    <title>Flow | Register</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -11,7 +11,7 @@
   <body>
 
     <header>
-          <a href="main.html"><div class="leftcenter">Flow</div>
+          <a href="index.html"><div class="leftcenter">Flow</div>
           <img src="../bilder/newspaper.png" id="hbilde" title="logo" alt="logo showing online newspaper on a tablet"></a>
           <div class="language">
             <img src="../bilder/england.png" id="england" alt="England">
@@ -21,19 +21,35 @@
 
 
       <div class="container">
-        <form>
+        <form action="billing.html">
             <div class="indexH2">Sign up</div>
-          <input type="text" class="bredde" placeholder="Firstname">
-          <input type="text"class="bredde" placeholder="Lastname"> <br><br>
-          <input type="email"class="bredde" placeholder="Email">
-          <input type="email" class="bredde"placeholder="Confirm Email"><br><br>
-          <input type="password"class="bredde" placeholder="Password">
-          <input type="password" class="bredde"placeholder="Confirm password"><br>
-          <input type="checkbox">I have read and accept the terms<br><br>
-         <a href="billing.html" class="logginnknapp">To billing information</a>
+          <label for="firstname">First name</label><br>
+          <input id="firstname" title="firstname" type="text" class="bredde" placeholder="Firstname"><br><br>
+
+          <label for="lastname">Last name</label><br>
+          <input id="lastname" title="lastname" type="text"class="bredde" placeholder="Lastname"> <br><br>
+
+          <label for="email">Email</label><br>
+          <input id="email" title="email" type="email"class="bredde" placeholder="Email"><br><br>
+
+          <label for="confirmemail">Confirm email</label><br>
+          <input id="confirmemail" title="confirmemail" type="email" class="bredde"placeholder="Confirm Email"><br><br>
+
+          <label for="password">Password</label><br>
+          <input id="password" title="password" type="password"class="bredde" placeholder="Password"><br><br>
+
+          <label for="confirmpassword">Confirm password</label><br>
+          <input id="confirmpassword" title="confirmepassword" type="password" class="bredde"placeholder="Confirm password"><br><br>
+
+          <label for="checkbox">I have read and accept the terms</label><br>
+          <input id="checkbox" title="checkbox" type="checkbox">
+
+          <br><br>
+          <input type="submit" value="To billing">
+         <!--<a href="billing.html" class="logginnknapp">To billing information</a>-->
        </form><br>
         <div>
-        <a href="index.html" id="register" class="signupbutton">Back</a>
+        <a href="main.html" id="register" class="signupbutton">Back</a>
               </div>
 
 </div>
@@ -42,7 +58,7 @@
   <table>
     <tr>
       <td><a href="register.html">Register</a></td>
-      <td><a href="index.html">Sign in</a></td>
+      <td><a href="main.html">Sign in</a></td>
       <td><a href="#">Help</a></td>
     </tr>
     <tr>

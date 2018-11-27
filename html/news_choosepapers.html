@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Flow | Innlogging</title>
+    <title>Flow | News</title>
     <link rel="stylesheet" href="../css/news_choosepapers.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -21,7 +21,7 @@
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="about_questions.html">About Flow</a></li>
-    <li style="float: right;"><a href="main.html">Sign out</a></li>
+    <li style="float: right;"><a href="index.html">Sign out</a></li>
 
     </ul>
     <div class="language">
@@ -58,24 +58,43 @@
 
 
       <div  class="rad1">
-        <img src="../bilder/TV2.png" class="logo" >
-        <input type="checkbox"><lable>TV2</lable>
+
+        <img src="../bilder/TV2.png" class="logo" alt="TV2-logo">
+        <input id="checkboxtv2" title="tv2" type="checkbox">
+        <label for="checkboxtv2">TV2</label>
+
       </div>
+
       <div  class="rad1">
-        <img src="../bilder/AP.png" class="logo" >
-        <input type="checkbox"><lable>AP</lable>
+
+        <img src="../bilder/AP.png" class="logo" alt="Aftenposten-logo">
+        <input id="checkboxAP" title="AP" type="checkbox">
+        <label for="checkboxAP">AP</label>
+
       </div>
+
       <div  class="rad1" id="bbcLogo">
-        <img src="../bilder/BBC.png" class="logo" id="bbcLogoBilde">
-        <input type="checkbox"><lable>BBC</lable>
+
+        <img src="../bilder/BBC.png" class="logo" id="bbcLogoBilde" alt="BBC-logo">
+        <input id="checkboxBBC" title="bbc" type="checkbox">
+        <label for="checkboxBBC">BBC</label>
+
       </div>
+
       <div  class="rad2">
-        <img src="../bilder/RB.png" class="logo" >
-        <input type="checkbox"><lable>RB</lable>
+
+        <img src="../bilder/RB.png" class="logo" alt="Romerike blad-logo">
+        <input id="checkboxRB" title="RB" type="checkbox">
+        <label for="checkboxRB">RB</label>
+
       </div>
+
       <div  class="rad2" id="siste">
-        <img src="../bilder/Fox.png" class="logo" >
-        <input type="checkbox"><lable>Fox News</lable>
+
+        <img src="../bilder/Fox.png" class="logo" alt="Fox News-logo">
+        <input id="checkboxFoxNews" title="FoxNews" type="checkbox">
+        <label for="checkboxFoxNews">Fox News</label>
+
       </div>
       <br>
       <a href="news_home.html" id="knapp">Choose papers</a>

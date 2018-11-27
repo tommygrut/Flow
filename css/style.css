@@ -127,6 +127,7 @@
   label{
     float: left;
     padding-left: 9vw;
+    text-shadow: 0.1em 0.1em 0.4em black ;
   }
 
 
@@ -145,6 +146,7 @@
 
     left: 32.5vw;
   }
+
 
   #register{
     float: left;

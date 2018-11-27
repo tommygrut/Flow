@@ -127,8 +127,8 @@ width: 3vw;
   margin: 2vw;
   overflow: hidden;
   padding-bottom: 25%;
-  max-height: 17vh;
-
+  max-height: 16vh;
+  text-align: center;
 }
 .rad2 {
   top: 70vw;
@@ -137,6 +137,7 @@ width: 3vw;
 button{
   background-color: white;
   border: white;
+  display: inline-block;
 }
 
 .bilde {

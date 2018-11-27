@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Flow | Innlogging</title>
+    <title>Flow | Billing</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -11,7 +11,7 @@
   <body>
 
     <header>
-      <a href="main.html"><div class="leftcenter">Flow</div>
+      <a href="index.html"><div class="leftcenter">Flow</div>
       <img src="../bilder/newspaper.png" id="hbilde" title="logo" alt="logo showing online newspaper on a tablet"></a>
       <div class="language">
         <img src="../bilder/england.png" id="england" alt="England">
@@ -21,34 +21,54 @@
 
 
       <div class="container">
-        <form>
+        <form action="news_home.html">
             <div class="indexH2">Payment</div>
-            <p>Card type:</p>
+            <label for="cardtype">Card type:</label><br><br>
 
-            <select style="padding-right: 3.5vw;"name="cards">
+            <select id="cardtype" title="cardtype" name="cards">
               <option value="Visa">Visa</option>
               <option value="Mastercard">Mastercard</option>
               <option value="American express">American express</option>
             </select><br><br>
-            <p>Name on card:</p>
-          <input type="text" id="bredde"placeholder="Name on card">
-          <p>Credit card number:</p>
-          <input type="number"id="bredde" placeholder="Credit card number">
-          <p>Expiration date:</p>
-          <input type="month" id="bredde"value="2018-11">
-          <p>CCV-Code</p>
-          <input type="number" id="bredde"placeholder="CCV">
+
+          <label for="name">Name on card:</label><br>
+          <input id="name" title="name" type="text" class="bredde"placeholder="Name on card"><br><br>
+
+          <label for="credit">Credit card number:</label><br>
+          <input id="credit" title="credit" type="number"class="bredde" placeholder="Credit card number"><br><br>
+
+          <label for="expdate">Expiration date:</label><br>
+          <input id="expdate" title="expirationdate" type="month" class="bredde"value="2018-11"><br><br>
+
+          <label for="ccv">CCV-Code</label><br>
+          <input id="ccv" title="ccv" type="number" class="bredde"placeholder="CCV"><br><br>
+
           <h2>Billing information</h2>
-          <input type="text" id="bredde"placeholder="Full name">
-          <input type="text" id="bredde"placeholder="Billing adress">
-          <input type="number" id="bredde"placeholder="Postal code">
-          <input type="tect"id="bredde" placeholder="City">
-          <input type="text" id="bredde"placeholder="Country">
-          <input type="number" id="bredde"placeholder="Mobile number"><br>
+
+          <label for="fullname">Full name</label><br>
+          <input id="fullname" title="fullname" type="text" class="bredde"placeholder="Full name"><br><br>
+
+          <label for="billingadress">Billing adress</label><br>
+          <input id="billingadress" title="billingadress" type="text" class="bredde"placeholder="Billing adress"><br><br>
+
+          <label for="postalcode">Postal code</label><br>
+          <input id="postalcode" title="postalcode" type="number" class="bredde"placeholder="Postal code"><br><br>
+
+          <label for="city">City</label><br>
+          <input id="city" title="city" type="text"class="bredde" placeholder="City"><br><br>
+
+          <label for="country">Country</label><br>
+          <input id="country" title="country" type="text" class="bredde"placeholder="Country"><br><br>
+
+          <label for="mobilenumber">Mobile number</label><br>
+          <input id="mobilenumber" title="mobilenumber" type="number" class="bredde"placeholder="Mobile number"><br><br>
 
 
 
-         <a href="news_home.html" class="logginnknapp">Sign up</a>
+         <!--<a href="news_home.html" class="logginnknapp">Sign up</a>-->
+
+         <input type="submit" value="Sign up">
+
        </form><br>
         <div>
         <a href="register.html" id="register" class="signupbutton">Back</a>
@@ -60,7 +80,7 @@
   <table>
     <tr>
       <td><a href="register.html">Register</a></td>
-      <td><a href="index.html">Sign in</a></td>
+      <td><a href="main.html">Sign in</a></td>
       <td><a href="#">Help</a></td>
     </tr>
     <tr>

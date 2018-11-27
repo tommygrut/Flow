@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Flow | Innlogging</title>
+    <title>Flow | Your profile</title>
     <link rel="stylesheet" href="../css/yourprofile.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -22,7 +22,7 @@
     <li class="current"><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="about_questions.html">About Flow</a></li>
-    <li style="float: right;"><a href="main.html">Sign out</a></li>
+    <li style="float: right;"><a href="index.html">Sign out</a></li>
     </ul>
     <div class="language">
       <img src="../bilder/england.png" id="england" alt="England">
@@ -42,11 +42,11 @@
       <td class="profile_category">Email:</td>
       <td>annaw@gmail.com</td>
     </tr>
-    <tr id="link_tr">
+    <tr class="link_tr">
       <td class="profile_category">Your favourite newspapers:</td>
       <td class="link_td">BBC, AP, FOX News. You can change this <a href="news_choosepapers.html">here</a></td>
     </tr>
-    <tr id="link_tr">
+    <tr class="link_tr">
       <td class="profile_category">Your subscription:</td>
       <td class="link_td">Standard plan</td>
     </tr>
@@ -61,10 +61,19 @@
 
   <h2>Change password:</h2>
   <form>
-    <input type="password" id="bredde" placeholder="Old password"><br>
-    <input type="password" id="bredde" placeholder="New password"><br>
-    <input type="password" id="bredde" placeholder="Retype new password"><br>
-    <a href="yourprofile.html" class="logginnknapp">Change password</a>
+
+    <label for="oldpassword">Old Password</label><br>
+    <input id="oldpassword" title="oldpassword" type="password" class="bredde" placeholder="Old password"><br>
+
+    <label for="newpassword">New Password</label><br>
+    <input id="newpassword" title="newpassword" type="password" class="bredde" placeholder="New password"><br><br>
+
+    <label for="retype">Retype new password</label><br>
+    <input id="retype" title="retype" type="password" class="bredde" placeholder="Retype new password"><br>
+
+
+    <input class="contact_labels" type="submit" value="Change">
+    <!--<a href="yourprofile.html" class="logginnknapp">Change password</a>-->
 
 </form>
 </div>
@@ -74,7 +83,7 @@
   <table>
     <tr>
       <td><a href="register.html">Register</a></td>
-      <td><a href="index.html">Sign in</a></td>
+      <td><a href="main.html">Sign in</a></td>
       <td><a href="#">Help</a></td>
     </tr>
     <tr>

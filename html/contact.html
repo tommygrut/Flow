@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Flow | Innlogging</title>
+    <title>Flow | Contact</title>
     <link rel="stylesheet" href="../css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -21,7 +21,7 @@
     <li><a href="yourprofile.html">Your profile</a></li>
     <li class="current"><a href="contact.html">Contact</a></li>
     <li><a href="about_questions.html">About Flow</a></li>
-    <li style="float: right;"><a href="main.html">Sign out</a></li>
+    <li style="float: right;"><a href="index.html">Sign out</a></li>
 
     </ul>
     <div class="language">
@@ -40,14 +40,14 @@
         <form name="contact" action="thankyou.html">
 
 
-        <div class="contact_labels">Subject</div>
-        <input type="text" placeholder="Subject">
+        <label for="subject" class="contact_labels">Subject</label>
+        <input id="subject" title="subject" type="text" placeholder="Subject">
 
-        <div class="contact_labels">E-mail</div>
-        <input type="text" placeholder="E-mail">
+        <label for="email" class="contact_labels">E-mail</label>
+        <input id="email" title="email" type="text" placeholder="E-mail">
 
-        <div class="contact_labels">Explain</div>
-        <textarea placeholder="How can we help you?"></textarea>
+        <label for="help" class="contact_labels">Explain</label>
+        <textarea id="help" title="help" placeholder="How can we help you?"></textarea>
 
 
         <input class="contact_labels" type="submit" value="Send">
@@ -63,7 +63,7 @@
     <table>
       <tr>
         <td><a href="register.html">Register</a></td>
-        <td><a href="index.html">Sign in</a></td>
+        <td><a href="main.html">Sign in</a></td>
         <td><a href="#">Help</a></td>
       </tr>
       <tr>

@@ -3,62 +3,58 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Flow | Innlogging</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <title>Flow | Sign in</title>
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
+
     <header>
-          <div class="leftcenter">Flow</div>
-            <img src="../bilder/newspaper.png" id="hbilde" title="logo" alt="logo showing online newspaper on a tablet">
-          <a href="index.html" class="logginnknapp">Sign in</a>
+      <a href="index.html"><div class="leftcenter">Flow</div>
+      <img src="../bilder/newspaper.png" id="hbilde" title="logo" alt="logo showing online newspaper on a tablet"></a>
           <div class="language">
             <img src="../bilder/england.png" id="england" alt="England">
             <img src="../bilder/norway.png" id="norway" alt="Norway">
           </div>
     </header>
 
-      <div class="hoveddel">
-      </div>
+    <div id="side">
+      <div class="container">
+        <form name="loginn" action="news_home.html">
+          <div class="indexH2">Sign in</div>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" title="email" class="bredde" placeholder="Email"> <br>
+          <label for="password">Password</label><br>
+          <input type="password" id="password" title="password" class="bredde" placeholder="Password"> <br><br>
+          <input type="submit" value="Send">
+          </form>
+        <!--<a href="news_home.html" class="logginnknapp">Sign in</a>-->
+      <br>
+        <div>
+        <a href="register.html" id="register" class="signupbutton">Register new account </a>
+          <a href="forgotten.html" id="glemtpassord" class="signupbutton">Forgotten password?</a>
+        </div>
 
-      <div class="beskrivelse">
-        <p>
-          Create an account today and gain ad free access to the news articles
-          behind the pay walls of thousands of online newspapers.
-          <br>
-          <br>
-          Help us make information flow freely.
-          <br>
-          <br>
-          <a id="link" href="index.html">Sign in</a> or <a id="link2" href="register.html">register</a> today.
-        </p>
+  </div>
+</div>
 
-        <p id="underBeskrivelse">
-
-          Try for free for 30 days. Only 149,00 kr/month after.
-
-
-        </p>
-      </div>
-
-
-      <footer>
-        <table>
-          <tr>
-            <td><a href="register.html">Register</a></td>
-            <td><a href="index.html">Sign in</a></td>
-            <td><a href="#">Help</a></td>
-          </tr>
-          <tr>
-          </tr>
-          <tr>
-            <td><a href="about_questions.html">About Flow</a></td>
-            <td><a href="contact.html">Contact</a></td>
-            <td><a href="#">Careers</a></td>
-          </tr>
-        </table>
-      </footer>
+<footer>
+  <table>
+    <tr>
+      <td><a href="register.html">Register</a></td>
+      <td><a href="main.html">Sign in</a></td>
+      <td><a href="#">Help</a></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td><a href="about_questions.html">About Flow</a></td>
+      <td><a href="contact.html">Contact</a></td>
+      <td><a href="#">Careers</a></td>
+    </tr>
+  </table>
+</footer>
 
     </body>
   </html>
