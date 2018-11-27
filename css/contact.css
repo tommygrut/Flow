@@ -118,11 +118,13 @@ a{
 }
 
 .contact_labels {
-  text-shadow: 0.1em 0.1em 0.4em black
+  text-shadow: 0.1em 0.1em 0.4em black;
+  font-family: 'Roboto', sans-serif;
 }
 
 textarea{
   height: 100px;
+  font-family: 'Roboto', sans-serif;
 }
 
 input, textarea {
@@ -144,7 +146,7 @@ input[type=submit] {
 
 input[type=submit]:hover{
   background-color: #7B9BA6;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 
 footer{
@@ -155,6 +157,7 @@ footer{
   padding-bottom: 2%;
   background-color: #233656;
   width: 100%;
+  text-shadow: 0.1em 0.1em 0.4em black;
 
 }
 

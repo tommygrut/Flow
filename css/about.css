@@ -317,6 +317,7 @@ footer{
   margin: 0 auto;
   background-color: #233656;
   width: 100%;
+  text-shadow: 0.1em 0.1em 0.4em black;
 }
 
 a{
