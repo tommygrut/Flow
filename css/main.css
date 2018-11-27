@@ -107,9 +107,6 @@ table{
   table-layout: fixed;
 }
 
-table a{
-  font-family: none;
-}
 
 .logginnknapp{
   float: right;
