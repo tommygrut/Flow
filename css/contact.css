@@ -2,7 +2,7 @@ body{
   width: 100%;
   padding: 0;
   margin:0;
-  background-color: #CDD6D5;
+  background-color: white;
 }
 
 header{
@@ -14,6 +14,7 @@ header{
   width: 100vw;
   z-index: 2;
   top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 #hbilde {
@@ -50,8 +51,7 @@ width: 3vw;
 h1 {
   text-align: center;
   font-size: 3vw;
-  font-family: 'Playfair Display', serif;
-}
+  font-family: 'Roboto', sans-serif;}
 
 
 /*NAVBAR*/
@@ -114,10 +114,18 @@ a{
   padding: 20px;
   width: 40vw;
   color: white;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact_labels {
+  text-shadow: 0.1em 0.1em 0.4em black;
+  font-family: 'Roboto', sans-serif;
 }
 
 textarea{
   height: 100px;
+  font-family: 'Roboto', sans-serif;
 }
 
 input, textarea {
@@ -139,6 +147,7 @@ input[type=submit] {
 
 input[type=submit]:hover{
   background-color: #7B9BA6;
+  font-size: 1.5em;
 }
 
 footer{
@@ -149,7 +158,8 @@ footer{
   padding-bottom: 2%;
   background-color: #233656;
   width: 100%;
-
+  text-shadow: 0.1em 0.1em 0.4em black;
+font-family: 'Roboto', sans-serif;
 }
 
 table{

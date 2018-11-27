@@ -3,7 +3,9 @@
     background-size: cover;
     padding: 0;
     margin:0;
-    background-color: #CDD6D5;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
   }
 
   header{
@@ -15,6 +17,7 @@
     width: 100vw;
     z-index: 2;
     top: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
  .indexH2 {
@@ -170,13 +173,11 @@
     margin-left: 6%;
     margin-right: 6%;
     font-size: 2.6vw;
-    font-family: 'Playfair Display', serif;
-  }
+    font-family: 'Roboto', sans-serif;  }
   #underBeskrivelse{
     margin-top: 8%;
     font-size: 0.6em;
-    font-family: 'Playfair Display', serif;
-  }
+    font-family: 'Roboto', sans-serif;  }
 
   #avisbildebakgrunn{
   }
@@ -197,6 +198,7 @@
     padding-bottom: 2%;
     background-color: #233656;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
   }
 
   a{
