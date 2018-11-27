@@ -78,7 +78,7 @@ width: 3vw;
 
 #meny {
   z-index: 1;
-  width: 10vw;
+  width: 11vw;
   background-color: #233656;
   color: white;
   margin: 0;
@@ -86,6 +86,8 @@ width: 3vw;
   overflow: scroll;
   height: 85%;
   text-shadow: 0.15em 0.15em 1em black;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -122,6 +124,7 @@ h1 {
   margin-bottom: 5vw;
   margin-right: 7vw;
   font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
 
 }
 
