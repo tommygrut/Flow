@@ -72,17 +72,15 @@ h1 {
 
 .TopHeader ul {
 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: inline-block;
-  position: absolute;
-  left: 26vw;
-  width: 70%;
-  top: 2vw;
-  font-size: 2vw;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    left: 40vw;
+    top: 2vw;
+    font-size: 2vw;
 }
 
 .TopHeader li {
