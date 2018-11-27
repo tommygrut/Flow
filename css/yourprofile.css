@@ -151,7 +151,7 @@ h1 {
   margin: .5vw 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: .15vw solid #233656;
+  border: .15vw solid #233656;
 }
 
 tr,td{
