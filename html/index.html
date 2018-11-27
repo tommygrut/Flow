@@ -11,7 +11,7 @@
 
     <header>
       <a href="main.html"><div class="leftcenter">Flow</div>
-      <img src="../bilder/newspaper.png" id="hbilde" title="logo"></a>
+      <img src="../bilder/newspaper.png" id="hbilde" title="logo" alt="logo showing online newspaper on a tablet"></a>
           <div class="language">
             <img src="../bilder/england.png" id="england" alt="England">
             <img src="../bilder/norway.png" id="norway" alt="Norway">
@@ -20,13 +20,16 @@
 
     <div id="side">
       <div class="container">
-        <form>
-            <div class="indexH2">Sign in</div>
-          <input type="email" id="bredde" placeholder="Email"> <br>
-          <input type="password" id="bredde" placeholder="Password"> <br><br>
+        <form name="loginn" action="news_home.html">
+          <div class="indexH2">Sign in</div>
+          <label>Email</label><br>
+          <input type="email" title="email" class="bredde" placeholder="Email"> <br>
+          <label>Password</label><br>
+          <input type="password" title="password" class="bredde" placeholder="Password"> <br><br>
+          <input type="submit" value="Send">
           </form>
-         <a href="news_home.html" class="logginnknapp">Sign in</a>
-       </form><br>
+        <!--<a href="news_home.html" class="logginnknapp">Sign in</a>-->
+      <br>
         <div>
         <a href="register.html" id="register" class="signupbutton">Register new account </a>
           <a href="forgotten.html" id="glemtpassord" class="signupbutton">Forgotten password?</a>

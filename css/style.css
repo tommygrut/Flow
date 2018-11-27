@@ -89,11 +89,30 @@
     background-color: #7B9BA6;
   }
 
+  input[type=submit] {
+      background-color: #233656;
+      color: white;
+      border: none;
+      font-size: 2vw;
+      border-radius: 2px;
+      cursor: pointer;
+      width: 50%;
+      padding: 12px;
+      box-sizing: border-box;
+      margin-top: 2%;
+      margin-bottom: 5%;
+  }
+
+  input[type=submit]:hover{
+    background-color: #7B9BA6;
+  }
+
+
   a{
     color: inherit;
     text-decoration: none;
   }
-  #bredde{
+  .bredde{
     width: 50%;
     padding: 1vw 2.5vw;
     margin: .5vw 0;
@@ -101,6 +120,14 @@
     border: none;
     border-bottom: .15vw solid #233656;
   }
+
+  label{
+    float: left;
+    padding-left: 9vw;
+  }
+
+
+
   .container{
     text-align: center;
     background-color: #415B76;

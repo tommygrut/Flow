@@ -81,6 +81,15 @@ a{
   text-decoration: underline;
 }
 
+#link2{
+  color: blue;
+}
+#link2:hover{
+  text-decoration: underline;
+}
+
+
+
 footer{
   height: 5%;
   color: white;
