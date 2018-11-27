@@ -3,7 +3,7 @@ body{
   padding: 0;
   margin:0;
   background-size: cover;
-  background-color: #CDD6D5;
+  background-color: white;
 }
 header{
   color: white;
@@ -317,6 +317,7 @@ footer{
   margin: 0 auto;
   background-color: #233656;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 a{

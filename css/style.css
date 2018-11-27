@@ -3,7 +3,7 @@
     background-size: cover;
     padding: 0;
     margin:0;
-    background-color: #CDD6D5;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 
   }
@@ -171,6 +171,7 @@
     padding-bottom: 2%;
     background-color: #233656;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
   }
 
   a{
