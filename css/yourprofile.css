@@ -61,9 +61,15 @@ width: 3vw;
   display: inline-block;
   text-shadow: 0.1em 0.1em 0.4em black
 }
-h1 {
+.profile_headline {
   text-align: center;
   font-size: 3vw;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.profile td.profile_category  {
+  font-size: 1em;
+  font-weight: bold;
 }
 
 
@@ -156,9 +162,7 @@ h1 {
   border-bottom: .15vw solid #233656;
 }
 
-tr,td{
-  padding: 1.5vw;
-}
+
 .changepass{
 margin-top: 2vw;
 width: 20vw;
