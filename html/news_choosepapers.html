@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Flow | Innlogging</title>
-    <link rel="stylesheet" href="../css/Velg.css">
+    <link rel="stylesheet" href="../css/news_choosepapers.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   </head>
   <body>
 
     <header>
-      <a href="hovedside.html">
-        <h1 class="leftcenter">Flow</h1>
+      <a href="news_home.html">
+        <div class="leftcenter">Flow</div>
                 <img src="../bilder/newspaper.png" id="hbilde" title="logo">
       </a>
 
     <ul id="header_Ul">
-    <li class="current"><a href="Hovedside.html">News</a></li>
+    <li class="current"><a href="news_home.html">News</a></li>
     <li><a href="yourprofile.html">Your profile</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li><a href="about.html">About Flow</a></li>
-    <li style="float: right;"><a href="index.html">Sign out</a></li>
+    <li><a href="about_questions.html">About Flow</a></li>
+    <li style="float: right;"><a href="main.html">Sign out</a></li>
 
     </ul>
     <div class="language">
@@ -33,20 +33,26 @@
 
       <div id="meny">
         <div class="options">
-          <h1 class="text"><a href="Hovedside.html">General</a></h1>
+          <h1 class="text"><a href="news_home.html">General</a></h1>
         </div>
         <div class="options">
-          <h1 class="text"><a href="Hoved-Sport.html">Sport</a></h1>
+          <h1 class="text"><a href="news_sports.html">Sport</a></h1>
         </div>
         <div class="options">
-          <h1 class="text"><a href="Hoved-Economy.html">Economy</a></h1>
+          <h1 class="text"><a href="news_economy.html">Economy</a></h1>
         </div>
         <div class="options">
-          <h1 class="text"><a href="Hoved-Politic.html">Politic</a></h1>
+          <h1 class="text"><a href="news_politics.html">Politics</a></h1>
         </div>
-        <div class="options">
-          <h1 class="text"><a href="Velg.html">Choose papers</a></h1>
+        <div class="options" id="currentPapers">
+          <h1 class="text"><a href="news_choosepapers.html">Choose papers</a></h1>
         </div>
+      </div>
+
+      <div id="infotekst">
+        <h4>Select your favourite newspapers to customize your own front
+        page. You will still have access to all newspapers, and you can
+      always come back here to change.</h4>
       </div>
 
 
@@ -58,8 +64,8 @@
         <img src="../bilder/AP.png" class="logo" >
         <input type="checkbox"><lable>AP</lable>
       </div>
-      <div  class="rad1">
-        <img src="../bilder/BBC.png" class="logo">
+      <div  class="rad1" id="bbcLogo">
+        <img src="../bilder/BBC.png" class="logo" id="bbcLogoBilde">
         <input type="checkbox"><lable>BBC</lable>
       </div>
       <div  class="rad2">
@@ -71,7 +77,8 @@
         <input type="checkbox"><lable>Fox News</lable>
       </div>
       <br>
-      <a href="Hovedside.html" id="knapp">Choose papers</a>
+      <a href="news_home.html" id="knapp">Choose papers</a>
+    </div>
 
 
     </body>
